@@ -1,0 +1,26 @@
+STYLING WEBSITES
+
+CSS defines the visual representation of the content of a website, such as
+colour, margins, borders, backgrounds and positions in the page. CSS is the
+presentation of the website, where HTML is the structure.
+
+CSS rule:
+body {
+  color: xxxx;
+}
+'body' is the selector, 'color' is the property and 'xxx' is the value:
+general code is
+selector {
+  property: value;
+  property: value;
+  property: value;
+  ( ... etc. ...)
+}
+
+A group of properties for a given selector is always defined within the curly
+braces, as shown above.
+
+Style tag: code
+  <style type="xxxxx">
+
+  </style>
