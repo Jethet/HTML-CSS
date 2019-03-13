@@ -6,9 +6,10 @@ WEBPAGE STRUCTURE
       <html>
       </html>
 
--  head and body tags: a HTML page is split into two parts, head and body
-   the head contains important webpage information (title, stylesheet, script)
-   the body contains the webpage content that is visible to the user.
+-  head and body tags:
+   a HTML page is split into two parts, head and body. The head contains
+   important webpage information (title, stylesheet, script).
+   The body contains the webpage content that is visible to the user.
    The code is:
      <head>
         <title>THIS IS THE TITLE</title>
@@ -64,3 +65,28 @@ WEBPAGE STRUCTURE
     <div>
       <img src="images/logo.png" alt="codebar.io">
     </div>
+
+   It is possible to link to a video and combine this with pictures.
+   First the link to the video should be added (with code <a href="">) and
+   images of pictures can be added under this (small indent).
+
+-  formatting:
+   to emphasise text: use <em>
+   to format text as important: use <strong>
+   to format text small: use <small>
+
+-  mailto link:
+   A link can open up a user's email client and share content. The difference
+   between regular links and mailto links is the content defined in the href
+   attribute. Code:
+    <a href="mailto:social&codebar.io?subject=I%20love%20owls%20::%20codebar">Email us</a>
+   Note: spaces in the subject text are replaced by %20.
+
+-  Twitter link:
+   A share-on-Twitter link can be added as follows:
+   <a href="https://twitter.com/home?status=I love owls! via @codebar">
+      Share your love of owls on Twitter</a>
+
+-  comments that should be ignored in HTML code:
+   Use special tag to add notes that will be ignored:
+     <!-- Note to self: xxx xxx -->
