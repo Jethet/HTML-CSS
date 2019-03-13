@@ -1,0 +1,11 @@
+WEBPAGE STRUCTURE
+
+-  doctype needs to be defined first in an HTML page: it tells the
+   browser which version of HTML the page is using
+      <!DOCTYPE html>
+      <html>
+      </html>
+
+-  head and body tags: a HTML page is split into two parts, head and body
+   the head contains important webpage information (title, stylesheet, script)
+   the body contains the webpage content that is visible to the user
