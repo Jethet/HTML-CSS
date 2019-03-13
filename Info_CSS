@@ -38,7 +38,12 @@ Selector: class
 A class selector selects all elements that use the specified class.
 
 Selector: id
-The id selector selects the element with the id logo (#logo)
+The id selector selects the element with the id. There can be only one
+element with a particular id.
 
 Selector: nested elements
 This selects all elements of a type that are nested within a class
+
+CSS can be embedded in the HTML page. This means it cannot be reused
+across other pages. A better way is to define CSS and include it
+within a SEPARATE stylesheet. This can then be reused.
