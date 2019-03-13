@@ -1,11 +1,66 @@
 WEBPAGE STRUCTURE
 
 -  doctype needs to be defined first in an HTML page: it tells the
-   browser which version of HTML the page is using
+   browser which version of HTML the page is using. The code is:
       <!DOCTYPE html>
       <html>
       </html>
 
 -  head and body tags: a HTML page is split into two parts, head and body
    the head contains important webpage information (title, stylesheet, script)
-   the body contains the webpage content that is visible to the user
+   the body contains the webpage content that is visible to the user.
+   The code is:
+     <head>
+        <title>THIS IS THE TITLE</title>
+        ... etc.
+     </head>
+     <body>
+     </body>
+
+-  elements: Headings
+   There are 6 sizes for headings. The code is:
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    etc.
+    h1 defines the largest (= most important) heading and h6 the smallest.
+
+-  elements: Paragraph
+   Use <p> to put content into paragraphs. It will break up your text and
+   make it easier to read for the user. Code (after code for header):
+     <p>
+     </p>
+
+-  element: Link
+   A link lets the user click through to another webpage. The attribute
+   href is used to indicate where the user should go. Code:
+   <a href="https://..url and page of website..">..description reference..</a>
+
+-  element: Div
+   A div tag groups elements together. This is useful for styling (e.g.
+   giving the grouped elements the same colour). Code to wrap around elements:
+   <div>
+   </div>
+
+-  element: List
+   Two types of list: ordered with numbers (= ol) and unordered with bullets
+   (= ul). Code (same for ul):
+   <ol>
+     <li>item 1</li>
+     <li>item 2</li>
+     etc.
+   </ol>
+
+-  element: Image
+   There should be a folder for images in the project folder. The images can
+   be downloaded by right clicking on a link and select 'Save as ...', and
+   save the images to the image folder.
+   Images have three primary attributes:
+   * the <img> tag
+   * the src attribute that lets the page know what image the user wants to see
+   * the alt attribute that provides extra information if the image cannot be
+     seen on the webpage for any reason (name image??)
+   To see the image on the webpage, the image needs to be linked by telling
+   the webpage where the image is and what it is called. Code:
+    <div>
+      <img src="images/logo.png" alt="codebar.io">
+    </div>
