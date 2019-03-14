@@ -116,7 +116,7 @@ ol li {
 .bigimg{
   display: inline;
 }
-.pictures li:first-child {
+.pictures li:first-child{
   margin-left: 5px;
 }
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
