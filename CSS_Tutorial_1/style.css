@@ -1,1 +1,34 @@
-/*place your styles here*/
+<style type="text/css">
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #a369d5;
+  text-decoration: none;
+  border-bottom: 1px dotted #a369d5;
+}
+.pictures {
+  margin: 10px auto;
+  width: 900px;
+}
+#logo {
+  margin: 0 auto 30px;
+  width: 200px;
+}
+.pictures li {
+  display: inline;
+  margin: 3px;
+}
+img {
+  margins: 0;
+  border: 0;
+}
+.bigimg img {
+  margins: 15px 2px;
+  width: 439px
+  borders: 2px solid #b9b1bf;
+}
+</style>
