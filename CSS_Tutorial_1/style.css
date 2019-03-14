@@ -8,7 +8,62 @@ body {
   margin: 0 auto 40px;
   padding: 0;
 }
-
+.right-box {
+  float: right;
+}
+#top-line {
+  width: 100%;
+  height: 5px;
+  background-color: #2d183d;
+  border-bottom: 3px solid #eedffb;
+  margin-bottom: 10px;
+}
+#bottom-line {
+  width: 100%;
+  height: 5px;
+  background-color: #2d183d;
+  border-top: 3px solid #eedffb;
+}
+h1 {
+  font-size: 39px;
+  color: #2d183d;
+  text-align: center;
+  border-bottom: 1px solid #f6f4f8;
+  border-top: 1px solid #f6f4f8;
+  padding: 20px 0;
+}
+h2 {
+  font-size: 28px;
+  margin: 15px 0;
+  color: #663095;
+  padding: 15px 0;
+  font-weight: 400;
+  text-align: center;
+}
+h4 {
+  color: #6D6A6A;
+  font-size: 19px;
+  padding: 27px 25px 15px;
+}
+small {
+  color: #6D6A6A;
+  font-size: 15px;
+  margin: 0 30px 10px;
+  text-align: right;
+  display: block;
+}
+ol {
+  margin: 14px 0;
+}
+ol li {
+  background-color: #f6f4f8;
+  color: #663095;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 30px 10px 40px;
+  padding: 6px 20px;
+  border-radius: 9px;
+}
 ul {
   list-style: none;
 }
