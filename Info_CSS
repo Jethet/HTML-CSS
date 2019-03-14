@@ -48,5 +48,6 @@ This selects all elements of a type that are nested within a class
 CSS can be embedded in the HTML page. This means it cannot be reused
 across other pages. A better way is to define CSS and include it
 within a SEPARATE STYLESHEET. This can then be reused.
+NB: both the HTML page and CSS stylesheet must be in the SAME directory.
 
 COMMENTS IN CSS: use /*place your comments here*/
