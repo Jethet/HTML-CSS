@@ -36,7 +36,6 @@ Text decoration includes underline, overline and line-through.
 
 Selector: class
 A class selector selects all elements that use the specified class.
-'margin' is the area surrounding an element: top, bottom, right, left.
 
 Selector: id
 The id selector selects the element with the id. There can be only one
