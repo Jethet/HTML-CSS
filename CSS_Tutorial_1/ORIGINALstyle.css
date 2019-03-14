@@ -1,0 +1,129 @@
+<style type="text/css">
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.3;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #a369d5;
+  text-decoration: none;
+  border-bottom: 1px dotted #a369d5;
+}
+.pictures {
+  margin: 10px auto;
+  width: 900px;
+}
+#logo {
+  margin: 0 auto 30px;
+  width: 200px;
+}
+.pictures li {
+  display: inline;
+  margin: 3px;
+}
+img {
+  margin: 0;
+  border: 0;
+}
+.bigimg img {
+  margin: 15px 2px;
+  width: 439px;
+  border: 2px solid #b9b1bf;
+}
+#main {
+  width: 900px;
+  margin: 0 auto 40px;
+  padding: 0;
+}
+.right-box {
+  float: right;
+}
+#top-line {
+  width: 100%;
+  height: 5px;
+  background-color: #2d183d;
+  border-bottom: 3px solid #eedffb;
+  margin-bottom: 10px;
+}
+#bottom-line {
+  width: 100%;
+  height: 5px;
+  background-color: #2d183d;
+  border-top: 3px solid #eedffb;
+}
+h1 {
+  font-size: 39px;
+  color: #2d183d;
+  text-align: center;
+  border-bottom: 1px solid #f6f4f8;
+  border-top: 1px solid #f6f4f8;
+  padding: 20px 0;
+}
+h2 {
+  font-size: 28px;
+  margin: 15px 0;
+  color: #663095;
+  padding: 15px 0;
+  font-weight: 400;
+  text-align: center;
+}
+h4 {
+  color: #6D6A6A;
+  font-size: 19px;
+  padding: 27px 25px 15px;
+}
+small {
+  color: #6D6A6A;
+  font-size: 15px;
+  margin: 0 30px 10px;
+  text-align: right;
+  display: block;
+}
+ol {
+  margin: 14px 0;
+}
+ol li {
+  background-color: #f6f4f8;
+  color: #663095;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 30px 10px 40px;
+  padding: 6px 20px;
+  border-radius: 9px;
+}
+#the-quote{
+  border-bottom: 1px solid #f6f4f8;
+  border-top: 1px solid #f6f4f8;
+  margin: 40px auto;
+  width: 90%;
+}
+#links {
+  margin: 10px 15px 0 0;
+}
+#links li {
+  margin: 0 7px;
+  font-size: 18px;
+  display: inline;
+}
+#text-block {
+  height: 370px;
+}
+.pictures li img {
+  border: 2px solid #b9b1bf;
+}
+.bigimg{
+  display: inline;
+}
+.pictures li:first-child{
+  margin-left: 5px;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+</style>
