@@ -37,6 +37,10 @@ Text decoration includes underline, overline and line-through.
 Selector: class
 A class selector selects all elements that use the specified class.
 
+Pseudo classes: a keyword added to a selector.
+A pseudo class specifies a special state of the element to be selected, for
+example 'hover' to turn a button blue when the cursor hovers over it.
+
 Selector: id
 The id selector selects the element with the id. There can be only one
 element with a particular id.
