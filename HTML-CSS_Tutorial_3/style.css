@@ -4,6 +4,23 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.mypicture {
+.my-picture {
   display: inline;
+}
+.title {
+  display: inline-block;
+  vertical-align: top;
+}
+.my-picture img {
+  height: 60px;
+}
+header {
+  background-color: #fdfdfc;
+  text-align: center;
+  border-bottom: 1px solid #e7e6e6;
+  padding-top: 14px;
+  height: 70px;
+}
+.sidebar {
+  background-color: #fdfdfd;
 }
