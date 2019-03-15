@@ -75,3 +75,6 @@ INLINE and BLOCK ELEMENTS are the most common ways to display elements.
 
 - inline: elements appear on the same underline
   Examples of inline elements are <img>, <a>, <em>, <strong> and <span>.
+
+INLINE-BLOCK is a display element that is used instead of INLINE when the div
+contains a class that is a block element (such as <h1>) that takes over.
