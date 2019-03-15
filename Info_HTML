@@ -18,6 +18,8 @@ WEBPAGE STRUCTURE
      <body>
      </body>
 
+-  container: this is where the main content is specified, after the header.
+
 -  elements: Headings
    There are 6 sizes for headings. The code is:
     <h1>Heading</h1>
@@ -69,6 +71,8 @@ WEBPAGE STRUCTURE
    It is possible to link to a video and combine this with pictures.
    First the link to the video should be added (with code <a href="">) and
    images of pictures can be added under this (small indent).
+
+-  footer:
 
 -  formatting:
    to emphasise text: use <em>
