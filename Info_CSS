@@ -35,7 +35,8 @@ all styling is wrapped:
 Text decoration includes underline, overline and line-through.
 
 Selector: class
-A class selector selects all elements that use the specified class.
+A class selector selects all elements that use the specified class. This can be
+.my-picture or .title.
 
 Pseudo classes: a keyword added to a selector.
 A pseudo class specifies a special state of the element to be selected, for
