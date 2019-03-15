@@ -82,3 +82,12 @@ contains a class that is a block element (such as <h1>) that takes over.
 BOX MODEL: an element can be seen as a box. The box model describes the
 stacking of spatial properties of an element: what effects its size and
 spacing on the page. These are padding, margin, border, height and width.
+
+PADDING AND MARGIN
+Padding and margin can be set in a number of ways:
+padding: top right bottom left  --> padding: 10px 20px 30px 5px
+padding: top right/left bottom  --> padding: 10px 20px 5px
+padding: top/bottom right/left  --> padding: 5px 15px
+padding: all  --> padding: 20px
+You can also set one specific padding: padding-right
+All of this also applies to MARGIN.
