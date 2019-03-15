@@ -32,3 +32,13 @@ header {
   margin-top: 55px;
   margin-left: 20px;
 }
+ul.social-media {
+  list-style: none;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+.social-media li {
+  border-bottom: 1px solid #b0afc0;
+  padding: 10px;
+  width: 200px;
+}
