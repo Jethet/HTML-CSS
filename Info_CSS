@@ -66,3 +66,11 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
 }
 
 COMMENTS IN CSS: use /*place your comments here*/
+
+INLINE and BLOCK ELEMENTS are the most common ways to display elements.
+
+- block: elements appear on a new line
+  Most elements are block elements, such as <div>, <p>, <h1>, <ul>, <li> etc.
+
+- inline: elements appear on the same underline
+  Examples of inline elements are <img>, <a>, <em>, <strong> and <span>.
