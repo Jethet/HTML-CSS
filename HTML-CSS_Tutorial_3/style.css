@@ -23,4 +23,12 @@ header {
 }
 .sidebar {
   background-color: #fdfdfd;
+  width: 30%;
+  min-width: 300px;
+  max-width: 320px;
+  display: inline-block;
+  padding: 25px 30px 20px;
+  border: 1px solid #e8e8ea;
+  margin-top: 55px;
+  margin-left: 20px;
 }
