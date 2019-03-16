@@ -44,6 +44,9 @@ div {
 	font-size: 30px;
 	margin-top: 15px;	
 }
+.fa-python:hover {
+	background-color: #819361;
+}
 .fa-book {
 	color: #14562B;
 	font-size: 30px;
