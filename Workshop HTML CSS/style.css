@@ -33,7 +33,7 @@ div {
 	background-color: white;
 	padding: 40px;
 	border-radius: 4px;
-	margin: 30px 8px;
+	margin: 30px 16px;
 	box-shadow: 
 }
 .list-inline {
@@ -41,11 +41,13 @@ div {
 }
 .fa-python {
 	color: #14562B;
-	font-size: 30px;	
+	font-size: 30px;
+	margin-top: 15px;	
 }
 .fa-book {
 	color: #14562B;
 	font-size: 30px;
+	margin-top: 20px;
 }
 .fa-linkedin {
 	color: #14562B;
@@ -54,6 +56,11 @@ div {
 .fa-github {	
 	color: #14562B;
 	font-size: 30px;
+}
+.fa-utensils {
+	color: #14562B;
+	font-size: 30px;
+	margin-top: 20px;
 }
 body {
 	text-align: center;
