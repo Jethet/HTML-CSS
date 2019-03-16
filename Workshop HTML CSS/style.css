@@ -12,12 +12,24 @@ h2 {
 }
 p {
 	font-family: 'Dosis', sans-serif;
+	color: #72A31B
+	font-size: 30px;
 }
 a {
 	text-decoration: none;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #14562B;
 }
+img {
+	width: 180px;
+	border-radius: 50%;
+}
+div {
+	border-color: #1C2B03;
+	border-style: 5px;
+}
 body {
 	text-align: center;
+	background-color: #F0F9E1;
 }
+
