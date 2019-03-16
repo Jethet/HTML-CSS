@@ -29,8 +29,12 @@ div {
 	border-color: #1C2B03;
 	border-style: 5px;
 }
+div {
+	resize: both;
+	overflow: auto;
+}
 .card-white {
-	background-color: white;
+	background-color: #FDFFFA;
 	padding: 40px;
 	border-radius: 4px;
 	margin: 30px 16px;
@@ -62,7 +66,7 @@ div {
 }
 .fa-utensils {
 	color: #14562B;
-	font-size: 30px;
+	font-size: 35px;
 	margin-top: 20px;
 }
 body {
