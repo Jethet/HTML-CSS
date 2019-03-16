@@ -12,8 +12,9 @@ h2 {
 }
 p {
 	font-family: 'Dosis', sans-serif;
-	color: #72A31B
-	font-size: 30px;
+	color: #72A31B;
+	font-size: 20px;
+	margin: 5px;
 }
 a {
 	text-decoration: none;
@@ -21,15 +22,41 @@ a {
 	color: #14562B;
 }
 img {
-	width: 180px;
-	border-radius: 50%;
+	width: 160px;
+	border-radius: 60%;
 }
 div {
 	border-color: #1C2B03;
 	border-style: 5px;
 }
+.card-white {
+	background-color: white;
+	padding: 40px;
+	border-radius: 4px;
+	margin: 30px 8px;
+	box-shadow: 
+}
+.list-inline {
+	list-style: none;
+}
+.fa-python {
+	color: #14562B;
+	font-size: 30px;	
+}
+.fa-books {
+	color: #14562B;
+	font-size: 30px;
+}
+.fa-linkedin {
+	color: #14562B;
+	font-size: 30px;
+}
+.fa-github {	
+	color: #14562B;
+	font-size: 30px;
+}
 body {
 	text-align: center;
-	background-color: #F0F9E1;
+	background-color: #F5FBEB;
 }
 
