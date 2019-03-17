@@ -38,7 +38,7 @@ div {
 	padding: 40px;
 	border-radius: 4px;
 	margin: 30px 16px;
-	box-shadow: 
+	box-shadow:
 }
 .list-inline {
 	list-style: none;
@@ -46,7 +46,7 @@ div {
 .fa-python {
 	color: #14562B;
 	font-size: 30px;
-	margin-top: 15px;	
+	margin-top: 15px;
 }
 .fa-python:hover {
 	background-color: #819361;
@@ -59,10 +59,12 @@ div {
 .fa-linkedin {
 	color: #14562B;
 	font-size: 30px;
+	display: inline-block;
 }
-.fa-github {	
+.fa-github {
 	color: #14562B;
 	font-size: 30px;
+	display: inline-block;
 }
 .fa-utensils {
 	color: #14562B;
@@ -73,4 +75,3 @@ body {
 	text-align: center;
 	background-color: #F5FBEB;
 }
-
