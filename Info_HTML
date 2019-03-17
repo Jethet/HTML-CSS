@@ -8,7 +8,7 @@ WEBPAGE STRUCTURE
 
 -  head and body tags:
    a HTML page is split into two parts, head and body. The head contains
-   important webpage information (title, stylesheet, script).
+   important webpage information (title, stylesheet, script, font etc.).
    The body contains the webpage content that is visible to the user.
    The code is:
      <head>
@@ -71,8 +71,6 @@ WEBPAGE STRUCTURE
    It is possible to link to a video and combine this with pictures.
    First the link to the video should be added (with code <a href="">) and
    images of pictures can be added under this (small indent).
-
--  footer:
 
 -  formatting:
    to emphasise text: use <em>
