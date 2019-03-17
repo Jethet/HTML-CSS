@@ -42,3 +42,10 @@ ul.social-media {
   padding: 10px;
   width: 200px;
 }
+.social-media li a {
+  color: #4c4066;
+  text-decoration: none;
+  text-shadow: 1px 0px #ffffff;
+  border-left: 7px solid #fdcc38;
+  padding-left: 10px;
+}
