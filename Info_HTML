@@ -1,3 +1,7 @@
+-  comments that should be ignored in HTML code:
+   Use special tag to add notes that will be ignored:
+     <!-- Note to self: xxx xxx -->
+
 WEBPAGE STRUCTURE
 
 -  doctype needs to be defined first in an HTML page: it tells the
@@ -89,6 +93,10 @@ WEBPAGE STRUCTURE
    <a href="https://twitter.com/home?status=I love owls! via @codebar">
       Share your love of owls on Twitter</a>
 
--  comments that should be ignored in HTML code:
-   Use special tag to add notes that will be ignored:
-     <!-- Note to self: xxx xxx -->
+PSEUDO CLASS
+A pseudo class is a keyword added to selectors to specify a special STATE. In
+this way, different styling can be specified for different states of a link:
+a:link
+a:visited
+a:hover
+a:active
