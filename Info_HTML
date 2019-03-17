@@ -100,3 +100,4 @@ a:link
 a:visited
 a:hover
 a:active
+This ORDER should be followed to apply different styling for all of the states.
