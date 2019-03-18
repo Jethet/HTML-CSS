@@ -59,3 +59,10 @@ ul.social-media {
   color: #4c4066;
   font-size: 19px;
 }
+.main {
+  display: inline-block;
+  width: 55%;
+  margin-left: 70px;
+  padding-top: 60px;
+  vertical-align: top;
+}
