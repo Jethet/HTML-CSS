@@ -29,6 +29,8 @@ header {
   display: inline-block;
   padding: 25px 30px 20px;
   border: 1px solid #e8e8ea;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 1px rgba(237, 235, 232, 0.4);
   margin-top: 55px;
   margin-left: 20px;
 }
@@ -51,4 +53,9 @@ ul.social-media {
 }
 .social-media li a:hover {
   border-left-color: #a26cd2;
+}
+.sidebar strong {
+  margin-left: 36px;
+  color: #4c4066;
+  font-size: 19px;
 }
