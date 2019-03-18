@@ -92,12 +92,3 @@ WEBPAGE STRUCTURE
    A share-on-Twitter link can be added as follows:
    <a href="https://twitter.com/home?status=I love owls! via @codebar">
       Share your love of owls on Twitter</a>
-
-PSEUDO CLASS
-A pseudo class is a keyword added to selectors to specify a special STATE. In
-this way, different styling can be specified for different states of a link:
-a:link
-a:visited
-a:hover
-a:active
-This ORDER should be followed to apply different styling for all of the states.

@@ -91,3 +91,12 @@ padding: top/bottom right/left  --> padding: 5px 15px
 padding: all  --> padding: 20px
 You can also set one specific padding: padding-right
 All of this also applies to MARGIN.
+
+PSEUDO CLASS
+A pseudo class is a keyword added to selectors to specify a special STATE. In
+this way, different styling can be specified for different states of a link:
+a:link
+a:visited
+a:hover
+a:active
+This ORDER should be followed to apply different styling for all of the states.
