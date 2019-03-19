@@ -52,3 +52,7 @@ header {
 #toolbar li a:hover {
   border-bottom: 1px solid;
 }
+#content {
+  background-color: #e8e8e8;
+  padding: 30px 40px;
+}
