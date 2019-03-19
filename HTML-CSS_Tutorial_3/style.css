@@ -82,3 +82,14 @@ blockquote {
   font-style: italic;
   color: #4C4066;
 }
+.google-doodle {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 70px;
+}
+a {
+  color: #7a3cb7;
+}
+a:hover {
+  color: #a26cd2;
+}
