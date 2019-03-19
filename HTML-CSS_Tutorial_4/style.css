@@ -1,8 +1,34 @@
 /* Reset the default styling of the page: this ensures CONSISTENCY across
-   different browsers */
+   different browsers; change default font */
 
 body {
   padding: 0;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
+}
+/* Center the header and add padding and alignment */
+header {
+  background-color: #fdfdfc;
+  border-bottom: 1px solid #e7e6e6;
+  padding-top: 14px;
+  text-align: center;
+}
+/* Make portrait and title inline elements */
+.portrait, .title {
+  display: inline-block;
+}
+/* Make portrait image round and restrict its height */
+.portrait img {
+  border-radius: 45px;
+  height: 85px;
+}
+.portrait {
+  padding-bottom: 10px;
+}
+.title {
+  margin: 20px 20px 0;
+  vertical-align: top;
+}
+.title h1 {
+  color: #3D5167;
 }
