@@ -92,3 +92,7 @@ WEBPAGE STRUCTURE
    A share-on-Twitter link can be added as follows:
    <a href="https://twitter.com/home?status=I love owls! via @codebar">
       Share your love of owls on Twitter</a>
+
+SPLIT LINES OF HTML CODE:
+<code><other_code
+params=...>
