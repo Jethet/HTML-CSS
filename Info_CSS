@@ -1,3 +1,5 @@
+COMMENTS IN CSS: use /*place your comments here*/
+
 STYLING WEBSITES
 
 CSS defines the visual representation of the content of a website, such as
@@ -65,8 +67,6 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
   font-size: 100%;
   vertical-align: baseline;
 }
-
-COMMENTS IN CSS: use /*place your comments here*/
 
 INLINE and BLOCK ELEMENTS are the most common ways to display elements.
 
