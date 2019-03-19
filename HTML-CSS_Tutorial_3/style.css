@@ -69,3 +69,12 @@ ul.social-media {
 .highlight {
   color: #4c61a9;
 }
+blockquote {
+  border: 1px solid #E7E6E6;
+  padding: 20px 27px;
+  border-radius: 6px;
+  background-color: #FDFDFC;
+  color: #4C4066;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
