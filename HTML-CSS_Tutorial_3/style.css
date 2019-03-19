@@ -93,3 +93,18 @@ a {
 a:hover {
   color: #a26cd2;
 }
+footer {
+  height: 60px;
+  padding-top: 20px;
+  padding-left: 30px;
+  background-color: #1f1430;
+  border-top: 1px solid #eeeeee;
+  margin-top: 20px;
+}
+footer p {
+  color: #b0afc0;
+  font-size: 14px;
+}
+footer a {
+  color: #b0afc0;
+}
