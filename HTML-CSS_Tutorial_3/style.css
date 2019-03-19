@@ -3,16 +3,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
+  line-height: 23px;
 }
 .my-picture {
-  display: inline;
+  height: 60px;
+  display: inline-block;
 }
 .title {
   display: inline-block;
+  margin: 20px;
   vertical-align: top;
 }
 .my-picture img {
   height: 60px;
+  border-radius: 26px;
 }
 header {
   background-color: #fdfdfc;
@@ -23,6 +27,7 @@ header {
 }
 .sidebar {
   background-color: #fdfdfd;
+  line-height: 20px;
   width: 30%;
   min-width: 300px;
   max-width: 320px;
@@ -77,6 +82,7 @@ blockquote {
   color: #4C4066;
   margin-top: 40px;
   margin-bottom: 40px;
+  font-style: italic;
 }
 .poem {
   font-style: italic;
@@ -86,6 +92,11 @@ blockquote {
   text-align: center;
   margin-top: 90px;
   margin-bottom: 70px;
+}
+h2 {
+  color: #4c4066;
+  font-size: 27px;
+  margin-top: 0;
 }
 a {
   color: #7a3cb7;
