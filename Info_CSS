@@ -112,9 +112,16 @@ a:hover
 a:active
 This ORDER should be followed to apply different styling for all of the states.
 
-
 It is possible to define COMMON STYLES for different CSS classes by comma-separating
 them:
 .portrait, .title {
   display: inline-block;
 }
+
+POSITIONING
+Default position HTML elements is STATIC i.e. positioned within the normal flow
+of the page, ignoring any top/bottom/left/right properties defined in CSS.
+Inline boxes flow from left to right and block boxes from top to bottom.
+When an element has position RELATIVE it is no longer in the normal flow and can
+be moved to top/bottom/right/left. It can be used in conjunction with ABSOLUTE
+positioning.
