@@ -79,6 +79,17 @@ INLINE and BLOCK ELEMENTS are the most common ways to display elements.
 INLINE-BLOCK is a display element that is used instead of INLINE when the div
 contains a class that is a block element (such as <h1>) that takes over.
 
+FLOATING ELEMENTS
+A floating elements stands as far to the left or right of their container
+element as possible. Other elements, such as paragraphs or Lists, wrap around
+the floating element. To ensure an element floats, its width must always be
+specified (otherwise it takes the width of the entire page).
+Floating properties:
+float: right  --> float to the right of the page
+float: left   --> float to the left of the page
+float: inherit --> inherit the value of the parent element
+float: none   --> do not float
+
 BOX MODEL: an element can be seen as a box. The box model describes the
 stacking of spatial properties of an element: what effects its size and
 spacing on the page. These are padding, margin, border, height and width.
