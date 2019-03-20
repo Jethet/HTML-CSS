@@ -56,14 +56,24 @@ header {
   background-color: #e8e8e8;
   padding: 30px 40px;
 }
-.mark_i img {
+.start-of-line {
   float: left;
-  padding-right: 20px;
-  padding-bottom: 10px;
+  position: relative;
 }
-.cobol img {
+.end-of-line {
   float: right;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  position: relative;
+}
+.start-of-line, .end-of-line {
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+}
+.caption {
+  background-color: rgba(250, 250, 250, 0.8);
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 73%;
 }
