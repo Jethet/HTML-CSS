@@ -77,3 +77,18 @@ header {
   left: 10px;
   width: 73%;
 }
+footer {
+  height: 60px;
+  padding-top: 20px;
+  background-color: #3D5167;
+  border-top: 1px solid #eeeeee;
+  width: 100%;
+}
+footer p {
+  color: #b0afc0;
+  font-size: 14px;
+  margin-left: 30px;
+}
+footer a {
+  color: #b0afc0;
+}
