@@ -69,6 +69,7 @@ INLINE and BLOCK ELEMENTS are the most common ways to display elements.
 
 INLINE-BLOCK is a display element that is used instead of INLINE when the div
 contains a class that is a block element (such as <h1>) that takes over.
+Inline-blocks can have a width and height, for example to create a grid of boxes.
 NONE is also a display value: hide and show elements without really deleting
 and recreating them. The page is rendered as though the element does not exist,
 in contrast to 'visibility: hidden' where the element is hidden but still takes
@@ -82,7 +83,7 @@ the remaining space will be split evenly between the two margins.
 
 FLOATING ELEMENTS
 A floating elements stands as far to the left or right of their container
-element as possible. Other elements, such as paragraphs or Lists, wrap around
+element as possible. Other elements, such as paragraphs text or Lists, wrap around
 the floating element. To ensure an element floats, its width must always be
 specified (otherwise it takes the width of the entire page).
 Floating properties:
@@ -90,6 +91,15 @@ float: right  --> float to the right of the page
 float: left   --> float to the left of the page
 float: inherit --> inherit the value of the parent element
 float: none   --> do not float
+To NOT WRAP text but have this appear after the floating element, use 'clear':
+'clear: left;' will move the text, list etc. down below the float instead of
+wrapping it around the floating element (same for 'clear: right;' and 'clear: both;').
+
+CLEARFIX: in case an image etc. is taller than the element containing it (the
+container), the image may overflow outside of its container. This can be fixed
+using '.clearfix {
+          overflow: auto;
+        }'
 
 BOX MODEL: an element can be seen as a box. The box model describes the
 stacking of spatial properties of an element: what effects its size and
@@ -112,6 +122,10 @@ with '-webkit' and '-moz' prefix to be used in specific browsers. Use as follows
    -mox-box-sizing: border-box;
         box-sizing: border-box;
 
+PERCENT WIDTH: percent is a measurement unit relative to the containing box.
+It can ensure that an image is always 50% the width of its container, for example.
+With 'min-width' and 'max-width' the size of the image can be limited.
+
 PSEUDO CLASS
 A pseudo class is a keyword added to selectors to specify a special STATE. In
 this way, different styling can be specified for different states of a link:
@@ -128,15 +142,26 @@ them:
 }
 
 POSITIONING
-Default position HTML elements is STATIC i.e. positioned within the normal flow
-of the page, ignoring any top/bottom/left/right properties defined in CSS.
 Inline boxes flow from left to right and block boxes from top to bottom.
-When an element has position RELATIVE it is no longer in the normal flow and can
-be moved to top/bottom/right/left. It can be used in conjunction with ABSOLUTE
-positioning.
+Default position HTML elements is <div class="static">. STATIC means not positioned
+in any specific way within the normal flow of the page. If not static, then an
+element is 'positioned'.
+<div class="relative">: when an element has position RELATIVE it is no longer in
+the normal flow and can be moved to top/bottom/right/left.
 With a FIXED position, an element is relative to the viewport of the browser
 window. As the viewport does not change when the window is scrolled, the element
-always appears to be at the same place.
+always appears to be at the same place. Top/right/bottom/left properties are used.
+A fixed element does not leave a gap in the page where it would normally have been
+located.
+ABSOLUTE positioning means the element behaves as if fixed, except relative to
+the nearest positional ancestor (or else the document body). An element of
+<div class="relative"> can have an absolute-positioned 'child': <div class="absolute">.
 
 Z-INDEX: the z-index controls how content overlaps. The element with the highest
 z-index appears on top.
+
+MEDIA QUERIES AND RESPONSIVE DESIGN: making a design that responds to the browser
+and the device that is used, can be done by using media queries.
+Use '@media screen and (min-width: xxxpx)' and '@media screen and (max-width: xxxpx)'
+for this, for example to move a menu to the top if the browser is too small to
+have the menu as sidebar.
