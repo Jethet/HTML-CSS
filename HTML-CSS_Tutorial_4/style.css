@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
+  line-height: 23px;
 }
 /* Center the header and add padding and alignment */
 header {
@@ -12,6 +13,10 @@ header {
   border-bottom: 1px solid #e7e6e6;
   padding-top: 14px;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  min-width: 570px;
 }
 /* Make portrait and title inline elements */
 .portrait, .title {
@@ -54,7 +59,7 @@ header {
 }
 #content {
   background-color: #e8e8e8;
-  padding: 30px 40px;
+  padding: 160px 50px 40px;
 }
 .start-of-line {
   float: left;
@@ -83,6 +88,7 @@ footer {
   background-color: #3D5167;
   border-top: 1px solid #eeeeee;
   width: 100%;
+  font-style: italic;
 }
 footer p {
   color: #b0afc0;
