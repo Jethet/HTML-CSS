@@ -70,6 +70,21 @@ INLINE and BLOCK ELEMENTS are the most common ways to display elements.
 INLINE-BLOCK is a display element that is used instead of INLINE when the div
 contains a class that is a block element (such as <h1>) that takes over.
 Inline-blocks can have a width and height, for example to create a grid of boxes.
+Inline-block can be used for layouts: set 'vertical-align' to 'top', set the
+width of each column that is defined in the html code. Mind whitespaces in the
+HTML: these will show as gaps between the columns.
+
+COLUMN: It is possible to make a multi-column text, for example:
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -mox-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}
+
 NONE is also a display value: hide and show elements without really deleting
 and recreating them. The page is rendered as though the element does not exist,
 in contrast to 'visibility: hidden' where the element is hidden but still takes
