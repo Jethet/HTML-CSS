@@ -56,3 +56,14 @@ header {
   background-color: #e8e8e8;
   padding: 30px 40px;
 }
+.mark_i img {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.cobol img {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
