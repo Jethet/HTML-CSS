@@ -128,3 +128,6 @@ positioning.
 With a FIXED position, an element is relative to the viewport of the browser
 window. As the viewport does not change when the window is scrolled, the element
 always appears to be at the same place.
+
+Z-INDEX: the z-index controls how content overlaps. The element with the highest
+z-index appears on top.
