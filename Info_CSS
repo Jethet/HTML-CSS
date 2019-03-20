@@ -1,7 +1,5 @@
 COMMENTS IN CSS: use /*place your comments here*/
 
-STYLING WEBSITES
-
 CSS defines the visual representation of the content of a website, such as
 colour, margins, borders, backgrounds and positions in the page. CSS is the
 presentation of the website, where HTML is the structure.
@@ -23,17 +21,6 @@ selector {
 A group of properties for a given selector is always defined within the curly
 braces, as shown above.
 
-A style tag is added in the header of the HTML code. In this tag, the code for
-all styling is wrapped:
-
-  <style type="xxxxx">
-    selector {
-      property: value;
-      property: value;
-      (... etc. ...)
-    }
-  </style>
-
 Text decoration includes underline, overline and line-through.
 
 Selector: class
@@ -54,11 +41,6 @@ This selects all elements of a type that are nested within a class
 Using element selectors the style is ensured for all elements of that type:
 h1 style for all headings of size 1, etc.
 
-CSS can be embedded in the HTML page. This means it cannot be reused
-across other pages. A better way is to define CSS and include it
-within a SEPARATE STYLESHEET. This can then be reused.
-NB: both the HTML page and CSS stylesheet must be in the SAME directory.
-
 RESET styles to avoid browser inconsistencies:
 html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
   margin: 0;
@@ -68,16 +50,35 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
   vertical-align: baseline;
 }
 
+DISPLAY The display property specifies the display behaviour (the type of rendering
+box) of an element. In HTML, the default display property value is taken from the
+HTML specifications or from the browser/user default style sheet.
 INLINE and BLOCK ELEMENTS are the most common ways to display elements.
 
-- block: elements appear on a new line
-  Most elements are block elements, such as <div>, <p>, <h1>, <ul>, <li> etc.
+- block: elements appear on a new line (also called block-level element)
+  <div> is the standard block-level element: starts on a new line and stretches
+  out to the left and right as far as it can.
+  <p>, <form>, <header>, <footer>, <section>, <h1>, <ul>, <li> etc. are also
+  block-level elements.
 
 - inline: elements appear on the same underline
-  Examples of inline elements are <img>, <a>, <em>, <strong> and <span>.
+  An inline element can wrap some text inside a paragraph: <span>sometext</span>
+  without disrupting the flow of that paragraph.
+  Examples of inline elements are <img>, <a> (most common because used for links),
+  <em>, <strong> and <span>.
 
 INLINE-BLOCK is a display element that is used instead of INLINE when the div
 contains a class that is a block element (such as <h1>) that takes over.
+NONE is also a display value: hide and show elements without really deleting
+and recreating them. The page is rendered as though the element does not exist,
+in contrast to 'visibility: hidden' where the element is hidden but still takes
+up the space it would have if visible.
+
+MAX-WIDTH: using 'max-width: xxxpx' instead of 'width' when preventing a block-level
+element from stretching out to the edges of the container, the web page is usable on
+small screens: you can resize the page. The width of the block-level element is set
+and with 'margin: 0 auto;' the element will centre horizontally in the container:
+the remaining space will be split evenly between the two margins.
 
 FLOATING ELEMENTS
 A floating elements stands as far to the left or right of their container
@@ -102,6 +103,14 @@ padding: top/bottom right/left  --> padding: 5px 15px
 padding: all  --> padding: 20px
 You can also set one specific padding: padding-right
 All of this also applies to MARGIN.
+
+To keep the box from becoming bigger with padding and borders, use BOX-SIZING.
+With 'box-sizing: border-box;' the padding and border no longer increase the
+width of a box. This is a very recent technique and should be used together
+with '-webkit' and '-moz' prefix to be used in specific browsers. Use as follows:
+-webkit-box-sizing: border-box;
+   -mox-box-sizing: border-box;
+        box-sizing: border-box;
 
 PSEUDO CLASS
 A pseudo class is a keyword added to selectors to specify a special STATE. In
