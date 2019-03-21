@@ -2,6 +2,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  border-top: 5px solid #4c4066;
+  background: url('background-right.jpg') right top no-repeat,
+              url('background-left.jpg') left no-repeat;
+  background-size: 420px auto, auto 900px;
+  background-attachment: fixed, fixed;
 }
 #wrapper {
   width: 90%;
@@ -19,6 +24,7 @@ h1 {
   width: 25%;
   min-width: 200px;
   display: inline-block;
+  position: relative;
 }
 #container {
   margin-left: 20px;
@@ -28,6 +34,7 @@ h1 {
 }
 #left-bar img {
   width: 100%;
+  display: block;
 }
 .frame {
   padding: 5px 15px 15px;
@@ -39,5 +46,29 @@ h1 {
   border-bottom-right-radius: 5px;
 }
 .rounded {
+  border: 1px solid;
   border-radius: 10px;
+}
+#left-bar .frame img {
+  border-top: 2px solid #e5e5e5;
+  border-bottom: 2px solid #e5e5e5;
+  padding: 7px 0;
+}
+#references {
+  margin-top: 30px;
+  text-align: center;
+}
+a.btn {
+  color: white;
+  margin-top: 40px;
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color: #9a95d8;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 8px #4e4c80;
+  -webkit-box-shadow: 2px 2px 8px #4e4c80;
+  box-shadow: 2px 2px 8px #4e4c80;
+}
+a.btn:hover {
+  box-shadow: 2px 2px 4px #4e4c80 inset;
 }
