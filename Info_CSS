@@ -186,3 +186,6 @@ text-shadow: horizontal-shadow vertical-shadow blur color
 - vertical-shadow: length of shadow along y-axis
 - blur: controls how much (if any) blur radius is added to the shadow (optional)
 - color: controls the colour of the shadow (optional)
+
+BORDER RADIUS: creates rounded corners to elements; the higher the number, the
+bigger the curve.
