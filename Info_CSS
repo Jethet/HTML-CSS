@@ -186,6 +186,9 @@ text-shadow: horizontal-shadow vertical-shadow blur color
 - vertical-shadow: length of shadow along y-axis
 - blur: controls how much (if any) blur radius is added to the shadow (optional)
 - color: controls the colour of the shadow (optional)
+Same goes for BOX SHADOW: this makes it possible to use multiple drop shadows on
+box elements using: 'box-shadow: horizontal-shadow vertical-shadow blur size
+ color inset'
 
 BORDER RADIUS: creates rounded corners to elements; the higher the number, the
 bigger the curve.
@@ -194,3 +197,6 @@ BACKGROUND IMAGES: add to 'body': 'background: url(path-to-image)'
 Use more background images by adding more urls after each other.
 Set properties for background images: 'background-size: first_image_size, second-
 image-size' etc.
+'no repeat' must be added, otherwise the image repeats itself to fill the container.
+'background-attachment: fixed, fixed' will keep the background from changing when
+scrolling: it remains in view.
