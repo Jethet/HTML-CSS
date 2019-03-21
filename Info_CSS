@@ -17,7 +17,6 @@ selector {
   property: value;
   ( ... etc. ...)
 }
-
 A group of properties for a given selector is always defined within the curly
 braces, as shown above.
 
