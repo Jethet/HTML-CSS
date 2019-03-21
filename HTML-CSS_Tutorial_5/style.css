@@ -15,3 +15,17 @@ h1 {
   color: #6f6c7c;
   text-shadow: 1px 1px 2px #72629a;
 }
+#left-bar {
+  width: 25%;
+  min-width: 200px;
+  display: inline-block;
+}
+#container {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+#left-bar img {
+  width: 100%;
+}
