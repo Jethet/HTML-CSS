@@ -29,3 +29,15 @@ h1 {
 #left-bar img {
   width: 100%;
 }
+.frame {
+  padding: 5px 15px 15px;
+  background-color: white;
+  margin-bottom: 20px;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.rounded {
+  border-radius: 10px;
+}
