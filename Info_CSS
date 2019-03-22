@@ -148,6 +148,10 @@ a:visited
 a:hover
 a:active
 This ORDER should be followed to apply different styling for all of the states.
+With HOVER it is also possible to use time lapse for the effect to happen, e.g.:
+effect builds up during certain time -->   transition-duration: 0.5s;
+effect does not start immediately --->     transition-delay: 0.2s;
+rotating effect of buttons etc. --->       transform: rotate(90deg);
 
 It is possible to define COMMON STYLES for different CSS classes by comma-separating
 them:
@@ -189,6 +193,10 @@ text-shadow: horizontal-shadow vertical-shadow blur color
 Same goes for BOX SHADOW: this makes it possible to use multiple drop shadows on
 box elements using: 'box-shadow: horizontal-shadow vertical-shadow blur size
  color inset'
+
+RGBA: with rgba not only colour but also opacity can be assigned:
+rgba(rgb code, opacity). For example, rgb(176, 175, 192) is the hex code #b0afc0.
+Opacity of 0.2 is very transparant; 1.0 is solid colour.
 
 BORDER RADIUS: creates rounded corners to elements; the higher the number, the
 bigger the curve.
