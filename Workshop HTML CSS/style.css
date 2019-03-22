@@ -1,10 +1,8 @@
-
-
 h1 {
 	color: #104B25;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 900;
-	font-size: 60px;
+	font-size: 40px;
 }
 h2 {
 	color: #14562B;
@@ -20,10 +18,11 @@ a {
 	text-decoration: none;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #14562B;
+	font-size: 20px;
 }
 img {
-	width: 160px;
-	border-radius: 60%;
+	width: 180px;
+	border-radius: 90%;
 }
 div {
 	border-color: #1C2B03;
@@ -37,7 +36,7 @@ div {
 	background-color: #FDFFFA;
 	padding: 40px;
 	border-radius: 4px;
-	margin: 30px 16px;
+	margin: 30px 150px;
 	box-shadow:
 }
 .list-inline {
@@ -59,19 +58,33 @@ div {
 .fa-linkedin {
 	color: #14562B;
 	font-size: 30px;
-	display: inline-block;
+	display: inline;
+}
+.fa-linkedin:hover {
+	background-color: #819361;
 }
 .fa-github {
 	color: #14562B;
 	font-size: 30px;
-	display: inline-block;
+	display: inline;
+}
+.fa-github:hover {
+	background-color: #819361;
 }
 .fa-utensils {
 	color: #14562B;
 	font-size: 35px;
 	margin-top: 20px;
 }
+.meet {
+	font-family: 'Dosis', sans-serif;
+	color: #72A31B;
+	font-size: 30px;
+	margin: 5px;
+}
 body {
 	text-align: center;
 	background-color: #F5FBEB;
+	background-image: url('The Bookwurm Bangalore.jpg');
+	background-repeat: no-repeat;
 }
