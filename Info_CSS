@@ -200,3 +200,7 @@ image-size' etc.
 'no repeat' must be added, otherwise the image repeats itself to fill the container.
 'background-attachment: fixed, fixed' will keep the background from changing when
 scrolling: it remains in view.
+
+With EM (em = ephemeral unit) used for font-size, the font is kept relative to
+the default font size. This means 0.5 em is 50% of the size that would apply as
+default.
