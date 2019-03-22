@@ -46,7 +46,7 @@ h1 {
 }
 .rounded {
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 #left-bar .frame img {
   border-top: 2px solid #e5e5e5;
@@ -65,9 +65,14 @@ a.btn {
   background: -webkit-linear-gradient(top, #4e4c80 0%, #9a95d8 100%);
   border-radius: 5px;
   box-shadow: 2px 2px 8px #4e4c80;
+  display: inline-block;
 }
 a.btn:hover {
   box-shadow: 2px 2px 4px #4e4c80 inset;
+  background: black;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+  transform: rotate(90deg);
 }
 p.about {
   font-size: 0.9em;
@@ -84,4 +89,7 @@ p:not(.about) {
 .achievements li {
   padding: 10px 40px;
   font-size: 0.75em;
+}
+.achievements li:nth-child(odd) {
+  background-color: rgba(176, 175, 192, 0.2);
 }
