@@ -25,12 +25,6 @@ h1 {
   min-width: 200px;
   display: inline-block;
 }
-#container {
-  margin-left: 20px;
-  display: inline-block;
-  vertical-align: top;
-  width: 60%;
-}
 #left-bar img {
   width: 100%;
   display: block;
@@ -44,8 +38,15 @@ h1 {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+#container {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
 .rounded {
   border-radius: 10px;
+  margin-bottom: 30px;
 }
 #left-bar .frame img {
   border-top: 2px solid #e5e5e5;
@@ -58,10 +59,10 @@ h1 {
 }
 a.btn {
   color: white;
-  margin-top: 40px;
   padding: 20px 30px;
   text-decoration: none;
-  background-color: #9a95d8;
+  background: -moz-linear-gradient(top, #4e4c80 0%, #9a95d8 100%);
+  background: -webkit-linear-gradient(top, #4e4c80 0%, #9a95d8 100%);
   border-radius: 5px;
   box-shadow: 2px 2px 8px #4e4c80;
 }
@@ -74,4 +75,13 @@ p.about {
 }
 p:not(.about) {
   line-height: 1.3em;
+}
+.achievements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.achievements li {
+  padding: 10px 40px;
+  font-size: 0.75em;
 }
