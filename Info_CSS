@@ -19,7 +19,6 @@ selector {
 }
 A group of properties for a given selector is always defined within the curly
 braces, as shown above.
-
 Text decoration includes underline, overline and line-through.
 
 Selector: class
@@ -31,7 +30,7 @@ A pseudo class specifies a special state of the element to be selected, for
 example 'hover' to turn a button blue when the cursor hovers over it.
 
 Selector: id
-The id selector selects the element with the id. There can be only one
+The id selector selects the element with the exact id. There can be only one
 element with a particular id.
 
 Selector: nested elements
@@ -48,6 +47,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
   font-size: 100%;
   vertical-align: baseline;
 }
+UNDO BULLETS: lists can be used without bullets by adding 'list-style: none'
 
 DISPLAY The display property specifies the display behaviour (the type of rendering
 box) of an element. In HTML, the default display property value is taken from the
@@ -204,3 +204,6 @@ scrolling: it remains in view.
 With EM (em = ephemeral unit) used for font-size, the font is kept relative to
 the default font size. This means 0.5 em is 50% of the size that would apply as
 default.
+
+The NOT selector (not) finds all elements that do not match the specified
+description (for example, for a paragraph): p:not(....) {   etc.
