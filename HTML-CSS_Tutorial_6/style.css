@@ -3,6 +3,9 @@ body {
   border-top: 5px solid #4c4066;
   margin: 0;
   padding: 10px 150px;
-  font-size: 12px;
+  font-size: 13px;
   color: #666666;
+}
+.controls {
+  audio-autoplay: false;
 }
