@@ -58,3 +58,15 @@ article {
   width: 600px;
   padding-bottom: 180px;
 }
+h2 {
+  color: black;
+}
+.articles li {
+  list-style: none;
+}
+.pictures-programmers ul {
+  list-style: none;
+}
+.resources {
+  display: inline-block;
+}
