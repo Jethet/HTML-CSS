@@ -18,11 +18,12 @@ header {
 nav {
   text-align: center;
   font-size: 15px;
-  color: #663095;
   padding-bottom: 15px;
   border-bottom: 1px solid #E7E6E6;
   background-color: #FDFDFC;
 }
 a {
   text-decoration: none;
+  color: #663095;
+  font-size: 1.2em;
 }
