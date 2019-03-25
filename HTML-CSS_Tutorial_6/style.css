@@ -3,7 +3,7 @@ body {
   border-top: 5px solid #4c4066;
   margin: 0;
   padding: 10px 150px;
-  font-size: 13px;
+  font-size: 15px;
   color: #666666;
 }
 header {
@@ -26,4 +26,8 @@ a {
   text-decoration: none;
   color: #663095;
   font-size: 1.2em;
+}
+article {
+  padding-right: 210px;
+  padding-bottom: 180px;
 }
