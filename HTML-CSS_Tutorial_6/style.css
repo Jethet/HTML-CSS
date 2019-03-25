@@ -6,6 +6,8 @@ body {
   font-size: 13px;
   color: #666666;
 }
-.controls {
-  audio-autoplay: false;
+header {
+  font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
 }
