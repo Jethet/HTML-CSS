@@ -33,16 +33,28 @@ a {
   color: black;
 }
 article {
-  padding-right: 210px;
+  width: 600px;
   padding-bottom: 180px;
 }
 aside {
-  display: inline-block;
-  text-decoration: none;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 80px;
+  margin-top: 20px;
+  width: 200px;
+  float: right;
+  height: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+  background-color: #FDFDFC;
+  position: fixed;
+  right: 150px;
+  border-bottom: 1px solid #E7E6E6;
+  background-color: #FDFDFC;
+  border-radius: 20px;
 }
 aside ul {
   list-style: none;
+}
+article {
+  width: 600px;
+  padding-bottom: 180px;
 }
