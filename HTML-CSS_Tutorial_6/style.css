@@ -9,5 +9,19 @@ body {
 header {
   font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 900;
-	font-size: 40px;
+	font-size: 45px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #FDFDFC;
+}
+nav {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #E7E6E6;
+  background-color: #FDFDFC;
+}
+a {
+  text-decoration: none;
 }
