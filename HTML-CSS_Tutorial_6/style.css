@@ -27,7 +27,22 @@ a {
   color: #663095;
   font-size: 1.2em;
 }
+.article-header {
+  padding-top: 15px;
+  font-size: 0.75em;
+  color: black;
+}
 article {
   padding-right: 210px;
   padding-bottom: 180px;
+}
+aside {
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 80px;
+}
+aside ul {
+  list-style: none;
 }
