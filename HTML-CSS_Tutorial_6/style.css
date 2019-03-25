@@ -65,8 +65,11 @@ h2 {
   list-style: none;
 }
 .pictures-programmers ul {
+  text-align: center;
   list-style: none;
   display: inline;
+  margin: 10px auto;
+  width: 900px;
 
 }
 .resources {
