@@ -1,12 +1,10 @@
 body {
-  padding: 0;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   border-top: 5px solid #4c4066;
-  margin: 0;
   padding: 10px 150px;
-  font-size: 15px;
-  color: #666666;
+  font-size: 12px;
+  color: #666;
 }
 header {
 	font-weight: 900px;
@@ -58,7 +56,7 @@ aside ul {
 }
 article {
   width: 600px;
-  padding-bottom: 180px;
+  padding-bottom: 100px;
 }
 .articles li {
   list-style: none;
@@ -66,22 +64,34 @@ article {
 h2 {
   color: black;
 }
+figure {
+  margin: 0;
+  padding-bottom: 4px;
+  border-bottom: 1px dotted #0098d8;
+}
 img {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
 }
-.name-programmers ul {
-  text-align: left;
-  list-style: none;
-  margin: 10px auto;
-  width: 900px;
-}
-.pictures-programmers li {
+.women-programmers {
   display: inline-block;
-  white-space: nowrap;
-  margin: 0 40px 0 0;
-  width: 50px;
-  height: 50px;
+  padding: 10px;
+}
+#ada {
+  padding: 10px;
+  display: inline-block;
+}
+#grace {
+  padding: 10px;
+  display: inline-block;
+}
+#anita {
+  padding: 10px;
+  display: inline-block;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
 }
 .resources {
 
