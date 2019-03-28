@@ -59,6 +59,7 @@ aside ul {
 }
 .articles li {
   list-style: none;
+  text-align: left;
 }
 h2 {
   color: black;
@@ -96,7 +97,4 @@ figcaption {
   text-align: center;
   font-style: italic;
   font-size: 70%;
-}
-.resources {
-
 }
