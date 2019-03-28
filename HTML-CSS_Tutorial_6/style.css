@@ -3,7 +3,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   border-top: 5px solid #4c4066;
   padding: 10px 150px;
-  font-size: 12px;
+  font-size: 15px;
   color: #666;
 }
 header {
@@ -40,10 +40,11 @@ aside {
   margin-top: 20px;
   width: 200px;
   float: right;
-  height: 90px;
+  height: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
   vertical-align: middle;
+  line-height: 150%;
   background-color: #FDFDFC;
   position: fixed;
   right: 150px;
@@ -53,6 +54,7 @@ aside {
 }
 aside ul {
   list-style: none;
+  text-align: left;
 }
 article {
   width: 600px;
