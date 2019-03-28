@@ -68,12 +68,18 @@ img {
   height: 250px;
   width: 250px;
 }
-.pictures-programmers ul {
+.name-programmers ul {
   text-align: left;
   list-style: none;
   margin: 10px auto;
   width: 900px;
-
+}
+.pictures-programmers li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
 }
 .resources {
 
