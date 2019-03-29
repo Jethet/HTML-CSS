@@ -47,7 +47,9 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, small, b, i, ol, ul, li {
   font-size: 100%;
   vertical-align: baseline;
 }
-UNDO BULLETS: lists can be used without bullets by adding 'list-style: none'
+UNDO BULLETS: lists can be used without bullets by adding 'list-style: none;'
+LIST HAS PADDING AND MARGINS BY DEFAULT in all browsers. Remove these with
+'margin: 0;' and 'padding: 0;'
 
 DISPLAY The display property specifies the display behaviour (the type of rendering
 box) of an element. In HTML, the default display property value is taken from the
