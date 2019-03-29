@@ -21,10 +21,11 @@ A group of properties for a given selector is always defined within the curly
 braces, as shown above.
 Text decoration includes underline, overline and line-through.
 
+SELECTOR: The part of a CSS rule that determines which HTML elements the rule
+applies to.
 Selector: class
 A class selector selects all elements that use the specified class. This can be
 .my-picture or .title.
-
 Pseudo classes: a keyword added to a selector.
 A pseudo class specifies a special state of the element to be selected, for
 example 'hover' to turn a button blue when the cursor hovers over it.
