@@ -73,6 +73,9 @@ img {
   height: 220px;
   width: 220px;
 }
+img:hover {
+  transform: rotate(15deg);
+}
 .women-programmers {
   display: inline-block;
   padding: 10px;
