@@ -98,3 +98,11 @@ figcaption {
   font-style: italic;
   font-size: 70%;
 }
+footer {
+  font-style: italic;
+  font-size: 95%;
+  color: #666666
+}
+footer a {
+  font-size: 90%;
+}
