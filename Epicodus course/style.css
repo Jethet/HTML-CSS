@@ -2,10 +2,16 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
+  width: 900px;
+  margin-left: 30px;
 }
 h1 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
   font-family: 'Roboto', sans-serif;
+}
+.top-header {
+  text-align: center;
+  color: green;
 }
