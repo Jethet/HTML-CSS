@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Reenie Beanie',cursive;
-  font-size: 35px;
+  font-size: 30px;
   width: auto;
   margin-top: 20px;
   margin-left: 100px;
@@ -11,7 +11,7 @@ body {
 }
 figcaption {
   font-family: 'Just Me Again Down Here', cursive;
-  font-size: 70%;
+  font-size: 80%;
 }
 h1 {
   font-size: 180%;
@@ -38,13 +38,13 @@ div .warning {
   top: 5px;
 }
 .warning {
-  right: 50px;
+  right: 80px;
   width: 90px;
   font-size: 25px;
   color: purple;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 30px;
+  margin-left: 20px;
   border: 0.2px solid purple;
   border-radius: 10%;
   background-color: #FFFFFF;
@@ -60,7 +60,7 @@ footer {
   color: #15158D;
 }
 .intro {
-  font-size: 80%;
+  font-size: 85%;
   color: #4040AA;
 }
 .img1 {
@@ -73,7 +73,8 @@ footer {
   float: left;
   margin-right: 50px;
   margin-left: 0;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 .img3 {
 
