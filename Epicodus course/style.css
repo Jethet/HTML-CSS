@@ -1,8 +1,10 @@
 
+
 body {
   font-family: 'Reenie Beanie',cursive;
   font-size: 35px;
   width: auto;
+  margin-top: 0;
   margin-left: 100px;
   margin-right: 250px;
   background-color: #FEFEFF;
@@ -28,9 +30,9 @@ main {
   width: 810px;
 }
 .warning {
-  float: right;
+  bottom: 0;
+  right: 50px;
   width: 90px;
-  height: auto;
   font-size: 25px;
   color: purple;
   padding-left: 10px;
@@ -64,8 +66,5 @@ footer {
   margin-top: 10px;
 }
 .img3 {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  width: 50%;
-  height: auto;
+
 }
