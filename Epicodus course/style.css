@@ -4,7 +4,7 @@ body {
   font-family: 'Reenie Beanie',cursive;
   font-size: 35px;
   width: auto;
-  margin-top: 0;
+  margin-top: 20px;
   margin-left: 100px;
   margin-right: 250px;
   background-color: #FEFEFF;
@@ -29,8 +29,11 @@ main {
   float: left;
   width: 810px;
 }
+div .warning {
+  bottom: 5px;
+  top: 5px;
+}
 .warning {
-  bottom: 0;
   right: 50px;
   width: 90px;
   font-size: 25px;
