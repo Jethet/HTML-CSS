@@ -9,6 +9,10 @@ body {
   margin-right: 250px;
   background-color: #FEFEFF;
 }
+figcaption {
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 70%;
+}
 h1 {
   font-size: 180%;
   font-weight: bolder;
