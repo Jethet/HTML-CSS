@@ -2,9 +2,10 @@
 body {
   font-family: 'Reenie Beanie',cursive;
   font-size: 35px;
-  width: 900px;
-  margin-left: 60px;
-  background-color: #FDFDFD;
+  width: auto;
+  margin-left: 100px;
+  margin-right: 250px;
+  background-color: #FEFEFF;
 }
 h1 {
   font-size: 180%;
@@ -26,7 +27,7 @@ main {
   float: left;
   width: 810px;
 }
-aside {
+.warning {
   float: right;
   width: 90px;
   height: auto;
@@ -37,7 +38,7 @@ aside {
   margin-left: 30px;
   border: 0.2px solid purple;
   border-radius: 10%;
-  background-color: #FAFAFA;
+  background-color: #FCFCFF;
   position: fixed;
 }
 footer {
