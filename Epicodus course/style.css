@@ -29,9 +29,7 @@ h3 {
   margin-left: 20px;
 }
 .img2 {
-  margin-left: 300px;
-  width: 50%;
-  height: auto;
+  float: left;
 }
 .img3 {
   box-sizing: border-box;
