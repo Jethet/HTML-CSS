@@ -22,12 +22,18 @@ h3 {
   text-align: center;
   color: #15158D;
 }
+.intro {
+  font-size: 80%;
+  color: #4040AA;
+}
 .img1 {
   float: right;
   margin-left: 20px;
 }
 .img2 {
   float: left;
+  margin-right: 50px;
+  margin-top: 10px;
 }
 .img3 {
   box-sizing: border-box;
