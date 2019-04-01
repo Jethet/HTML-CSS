@@ -7,7 +7,7 @@ body {
   font-family: 'Reenie Beanie',cursive;
   font-size: 30px;
   max-width: 1100px;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 50px;
@@ -41,7 +41,7 @@ a {
   width: 250px;
   margin-left: 10px;
   margin-top: -10px;
-  margin-right: 10px;
+  margin-right: 30px;
   float: right;
   font-size: 20px;
 }
@@ -50,15 +50,15 @@ div .warning {
   top: 5px;
 }
 .warning {
-  right: 40px;
-  width: 100px;
+  right: 30px;
+  width: 80px;
   font-size: 20px;
   color: purple;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 20px;
   margin-right: 5px;
-  margin-top: 80px;
+  margin-top: 20px;
   border: 0.2px solid purple;
   border-radius: 10%;
   background-color: #FFFFFF;
@@ -76,7 +76,7 @@ footer {
 .intro {
   font-size: 85%;
   color: #4040AA;
-  width: 80%;
+  width: 75%;
 }
 .img1 {
   float: right;
