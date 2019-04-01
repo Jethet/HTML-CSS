@@ -55,11 +55,15 @@ div {
 .codebar {
 	height: 40px;
 	width: 40px;
+	border: 1px solid white;
 	margin-bottom: -8px;
-	padding-left: 20px;
+	margin-left: 20px;
 }
 .codebar:hover {
-	background-color: black;
+	border-color: black;
+}
+.fa-coffee {
+	margin-left: 30px;
 }
 .fa-book {
 	color: #14562B;
