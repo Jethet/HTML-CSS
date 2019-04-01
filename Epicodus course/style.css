@@ -1,12 +1,17 @@
-
+html {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: 'Reenie Beanie',cursive;
   font-size: 30px;
-  width: auto;
-  margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 250px;
+  max-width: 1100px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 50px;
+  margin-right: 100px;
   background-color: #FEFEFF;
 }
 figcaption {
@@ -29,9 +34,8 @@ h3 {
 a {
   color: purple;
 }
-main {
-  float: left;
-  width: 810px;
+.main-text {
+  width: 900px;
 }
 .sidebar {
   width: 250px;
@@ -39,7 +43,6 @@ main {
   margin-top: -10px;
   margin-right: 10px;
   float: right;
-  position: relative;
   font-size: 20px;
 }
 div .warning {
@@ -47,14 +50,15 @@ div .warning {
   top: 5px;
 }
 .warning {
-  right: 80px;
+  right: 40px;
   width: 100px;
   font-size: 20px;
   color: purple;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 20px;
-  margin-top: 30px;
+  margin-right: 5px;
+  margin-top: 80px;
   border: 0.2px solid purple;
   border-radius: 10%;
   background-color: #FFFFFF;
@@ -72,12 +76,14 @@ footer {
 .intro {
   font-size: 85%;
   color: #4040AA;
+  width: 80%;
 }
 .img1 {
   float: right;
   margin-top: 20px;
   margin-left: 20px;
   padding-top: 20px;
+  margin-right: 50px;
 }
 .img2 {
   float: left;
@@ -85,16 +91,6 @@ footer {
   margin-left: 0;
   margin-top: 20px;
   margin-bottom: 0;
-}
-.img3 {
-
-}
-body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 150%;
-  vertical-align: baseline;
 }
 .blogpage {
   margin: 20px;
