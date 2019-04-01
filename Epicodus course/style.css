@@ -89,7 +89,19 @@ footer {
 .img3 {
 
 }
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 150%;
+  vertical-align: baseline;
+}
+.blogpage {
+  margin: 20px;
+}
 .blog {
-  width: 100;
+  width: 20%;
   float: left;
+  margin-right: 15px;
+  margin-left: 15px;
 }
