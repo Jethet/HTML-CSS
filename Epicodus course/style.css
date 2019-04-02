@@ -12,9 +12,9 @@ body {
   margin-left: 50px;
   margin-right: 100px;
   background-color: #FEFEFF;
-  background: url('imgs/relax-pict.jpg') right top no-repeat,
-              url('imgs/code-screen.jpg') left no-repeat;
-  background-size: 420px auto, auto 900px;
+  background: url('imgs/relax-pict.jpg') left top no-repeat,
+              url('imgs/code-screen.jpg') right bottom no-repeat;
+  background-size: 220px auto, auto 200px;
   background-attachment: fixed, fixed;
 }
 figcaption {
