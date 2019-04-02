@@ -103,3 +103,13 @@ footer {
   margin-right: 15px;
   margin-left: 15px;
 }
+.img4 {
+  float: right;
+  width: 250px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 0;
+
+}
