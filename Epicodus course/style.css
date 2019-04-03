@@ -12,9 +12,23 @@ body {
   margin-left: 50px;
   margin-right: 100px;
   background-color: #FEFEFF;
-  background: url('imgs/relax-pict.jpg') left top no-repeat;
-  background-size: 220px auto, auto 200px;
-  background-attachment: fixed, fixed;
+}
+#main {
+  position: relative;
+}
+#main:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('imgs/relax-pict.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 200%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1;
 }
 figcaption {
   font-family: 'Just Me Again Down Here', cursive;
