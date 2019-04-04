@@ -98,6 +98,13 @@ WEBPAGE STRUCTURE
 
 RESPONSIVE LAYOUT:
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
+The mobile-first approach is a way to design with consideration for the restrictions
+posed by mobile phones: focus on core content and functionality, consider bandwidth.
+There is a hierarchy of content, for example:
+1 - site name
+2 - content text
+3 - resources
+4 - author info
 
 SPLIT LINES OF HTML CODE:
 <code><other_code
