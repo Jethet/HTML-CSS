@@ -21,6 +21,9 @@ WEBPAGE STRUCTURE
      </head>
      <body>
      </body>
+  NB: the links to the css stylesheets should come first, above the title.
+  The styles.css link should be the last one you add. To start with a good
+  layout without default values, include <link rel="stylesheet" href="reset.css">
 
 -  container: this is where the main content is specified, after the header.
 
@@ -93,7 +96,8 @@ WEBPAGE STRUCTURE
    <a href="https://twitter.com/home?status=I love owls! via @codebar">
       Share your love of owls on Twitter</a>
 
-
+RESPONSIVE LAYOUT:
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
 
 SPLIT LINES OF HTML CODE:
 <code><other_code
