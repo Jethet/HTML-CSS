@@ -6,7 +6,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #3498db;
 }
 .header_img {
@@ -21,20 +21,26 @@ header {
   margin-left: 20px;
 }
 .main_text {
-  order: 3;
+
 }
 .figure {
-  order: 3;
+  position: relative;
+  margin: 0 auto 15px;
+}
+.figure_img {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
 }
 .sidebar {
-  order: 3;
+
 }
 .main_quote {
-  order: 4;
+
 }
 .last_paragraph {
-  order: 5;
+
 }
 .footer {
-  order: 6;
+
 }
