@@ -110,4 +110,8 @@ header {
     float: left;
     margin: 0 15px 10px 0;
   }
+  .figure_second {
+    float: right;
+    margin: 0 0px 10px 15px;
+  }
 }
