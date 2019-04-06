@@ -63,6 +63,7 @@ header {
 }
 .last_sentence {
   font-style: italic;
+  margin-bottom: 40px;
 }
 .resourcelist_title {
   padding: 20px;
