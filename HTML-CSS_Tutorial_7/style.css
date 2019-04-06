@@ -26,6 +26,7 @@ header {
 .figure {
   position: relative;
   margin: 0 auto 15px;
+  max-width: 300px;
 }
 .figure_img {
   display: block;
@@ -47,7 +48,9 @@ header {
   line-height: 1.4em;
 }
 .sidebar {
-
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 .main_quote {
   clear: both;
@@ -58,8 +61,18 @@ header {
   color: #7f8c8d;
   border-left: 4px solid #1abc9c;
 }
-.last_paragraph {
-
+.last_sentence {
+  font-style: italic;
+}
+.resourcelist_title {
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #1abc9c;
+}
+.resourcelist {
+  background-color: #ecf0f1;
+  padding: 20px 20px 10px;
 }
 .footer {
 
