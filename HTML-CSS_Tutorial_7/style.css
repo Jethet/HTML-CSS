@@ -2,11 +2,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: #2c3e50;
 }
-header {
+.header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 10px 0;
   background-color: #3498db;
 }
 .header_img {
@@ -47,11 +47,6 @@ header {
   margin-bottom: 1em;
   line-height: 1.4em;
 }
-.sidebar {
-  border-radius: 4px;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
 .main_quote {
   clear: both;
   margin: 30px 0;
@@ -60,6 +55,11 @@ header {
   font-style: italic;
   color: #7f8c8d;
   border-left: 4px solid #1abc9c;
+}
+.sidebar {
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 .last_sentence {
   font-style: italic;
@@ -114,6 +114,9 @@ header {
     float: right;
     margin: 0 0px 10px 15px;
   }
+  .sidebar {
+      max-width: 300px;
+  }
 }
 @media (min-width: 620px) {
   .header {
@@ -122,6 +125,9 @@ header {
   .header_img {
     width: 100px;
     height: 100px;
+  }
+  .main_quote {
+      max-width: 530px;
   }
 }
 @media (min-width: 860px) {
