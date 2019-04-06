@@ -105,3 +105,9 @@ header {
   text-decoration: underline;
   color: #c0392b;
 }
+@media (min-width: 500px) {
+  .figure {
+    float: left;
+    margin: 0 15px 10px 0;
+  }
+}
