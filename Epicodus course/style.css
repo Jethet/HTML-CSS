@@ -112,6 +112,8 @@ footer {
   margin-bottom: 0;
 }
 .img3 {
+  float: right;
+  padding-left: 40px;
   padding-bottom: 10px;
 }
 /*
@@ -134,4 +136,5 @@ This code was replaced by bootstrap columns:
   margin-bottom: 5px;
   margin-left: 20px;
   margin-right: 0;
+  padding-bottom: 50px;
 }
