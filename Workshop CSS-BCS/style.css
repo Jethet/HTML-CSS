@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+/* remove default margin for the body*/
+body {
+	margin: 0;
+}
+
+#top {
+	background: black;
+	color: white;
+}
+
+/* get rid of margins and display inline*/
+#top h1, #top h2 {
+	margin: 0;
+	display: inline-block;
+	padding: 1em 0.5em;
+}
+
+#top h2 {
+	float: right;
+}
+
+#header
+
+.dates
+
+.campus
+
+footer
