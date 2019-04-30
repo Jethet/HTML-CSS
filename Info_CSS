@@ -225,3 +225,5 @@ EVEN and ODD RULES: it is possible to apply a different style to every second
 item on a list with the 'child' element: :nth-child(odd) and :nth-child(even)
 
 To use grid layout, always start with: display: grid;
+
+IMAGES: always optimise beforehand (scaling etc.) to have small filesize
