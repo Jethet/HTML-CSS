@@ -23,7 +23,7 @@ body {
 	float: right;
 }
 
-#header img {
+#header img, .campus img {
   width: 100%;
 }
 
