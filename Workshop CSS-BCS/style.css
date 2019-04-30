@@ -61,6 +61,12 @@ footer {
 	.campus {
 		grid-template-columns: 1fr;
 	}
+  .dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin-bottom: 2em;
+  }
 }
 
 @media print {
