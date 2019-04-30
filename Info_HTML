@@ -28,6 +28,8 @@ WEBPAGE STRUCTURE
   The styles.css link should be the last one you add. To start with a good
   layout without default values, include <link rel="stylesheet" href="reset.css">
 
+- footer: will be repeated for each page
+
 -  container: SECTION this is where the main content is specified, after the header.
 
 -  elements: Headings
