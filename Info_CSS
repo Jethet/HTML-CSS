@@ -221,3 +221,6 @@ description (for example, for a paragraph): p:not(....) {   etc.
 
 EVEN and ODD RULES: it is possible to apply a different style to every second
 item on a list with the 'child' element: :nth-child(odd) and :nth-child(even)
+
+em = height of one character
+em and % are preferable to use for sizes and margins.
