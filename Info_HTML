@@ -28,7 +28,7 @@ WEBPAGE STRUCTURE
   The styles.css link should be the last one you add. To start with a good
   layout without default values, include <link rel="stylesheet" href="reset.css">
 
--  container: this is where the main content is specified, after the header.
+-  container: SECTION this is where the main content is specified, after the header.
 
 -  elements: Headings
    There are 6 sizes for headings. The code is:
