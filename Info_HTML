@@ -13,6 +13,7 @@ WEBPAGE STRUCTURE
 -  head and body tags:
    a HTML page is split into two parts, head and body. The head contains
    important webpage information (title, stylesheet, script, font etc.).
+   The head is the name of the website for search engines.
    The body contains the webpage content that is visible to the user.
    The code is:
      <head>
