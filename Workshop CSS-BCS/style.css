@@ -68,3 +68,12 @@ footer {
 		grid-template-columns: 1fr 1fr;
 	}
 }
+/* IF YOU DO NOT WANT THE HEADER PICTURE ON A MOBILE: */
+@media all and (max-width: 400px){
+	.campus {
+		grid-template-columns: 1fr;
+	}
+  #header img {
+    display: none;
+  }
+}
