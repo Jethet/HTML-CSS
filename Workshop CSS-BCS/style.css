@@ -48,3 +48,23 @@ footer {
 	width: 100vw;
 	padding: 1em 0;
 }
+/* now adding media queries*/
+/* tablets*/
+@media all and (max-width: 800px){
+	.campus {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* smartphones */
+@media all and (max-width: 400px){
+	.campus {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media print {
+	.campus {
+		grid-template-columns: 1fr 1fr;
+	}
+}
