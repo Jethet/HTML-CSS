@@ -123,6 +123,8 @@ stacking of spatial properties of an element: what effects its size and
 spacing on the page. These are padding, margin, border, height and width.
 
 PADDING AND MARGIN
+Margin: whitespace around the element
+Padding: whitespace inside the element
 Padding and margin can be set in a number of ways:
 padding: top right bottom left  --> padding: 10px 20px 30px 5px
 padding: top right/left bottom  --> padding: 10px 20px 5px
