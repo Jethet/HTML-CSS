@@ -1,6 +1,8 @@
 -  comments that should be ignored in HTML code:
    Use special tag to add notes that will be ignored:
      <!-- Note to self: xxx xxx -->
+- meta data is not rendered but used by the server (for example: description and
+  keywords are giving information that will be used by Google)
 
 WEBPAGE STRUCTURE
 
