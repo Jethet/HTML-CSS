@@ -65,6 +65,9 @@ WEBPAGE STRUCTURE
      etc.
    </ol>
 
+- <pre></pre> all that is within these tags is respected: in this way empty
+  lines can be created, for example.
+
 -  element: Image
    There should be a folder for images in the project folder. The images can
    be downloaded by right clicking on a link and select 'Save as ...', and
