@@ -47,8 +47,13 @@ WEBPAGE STRUCTURE
 
 -  element: Link
    A link lets the user click through to another webpage. The attribute
-   href is used to indicate where the user should go. Code:
+   ==> href is an anchor tag that contains the URL address of the link: it is
+   used to indicate where the user should go:
    <a href="https://..url and page of website..">..description reference..</a>
+   
+   ==> target is an anchor tag attribute that specifies where to open the link and 
+   the value "_blank" specifies to open the link in a new tab
+   Example: <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
 
 -  element: Div
    A div tag groups elements together. This is useful for styling (e.g.
