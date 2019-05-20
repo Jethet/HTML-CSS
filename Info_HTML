@@ -70,6 +70,16 @@ WEBPAGE STRUCTURE
      etc.
    </ol>
 
+-  element: Button
+   You can use radio buttons for questions where you want the user to only give you one answer 
+   out of multiple options. Radio buttons are a type of input. Each of the radio buttons can
+   be nested within its own label element. By wrapping an input element inside of a label element
+   it will automatically associate the radio button input with the label element surrounding it.
+
+   All related radio buttons should have the same name attribute to create a radio button group. 
+   By creating a radio group, selecting any single radio button will automatically deselect the 
+   other buttons within the same group ensuring only one answer is provided by the user.
+
 - <pre></pre> all that is within these tags is respected: in this way empty
   lines can be created, for example.
 
