@@ -1,0 +1,9 @@
+- use Sass
+- CDN (Content Delivery Network)
+- rem instead of pixels
+
+- .container-fluid: uses entire width of the viewport (entire screen)
+   moves with the resolution
+   .container is fixed width
+
+Recommended: Visual Studio Code
