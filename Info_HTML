@@ -32,28 +32,30 @@ WEBPAGE STRUCTURE
 
 -  container: SECTION this is where the main content is specified, after the header.
 
--  elements: headings
-   There are 6 sizes for headings. The code is:
-    <h1></h1>
-    <h2></h2>
-    etc.
-    h1 defines the largest (= most important) heading and h6 the smallest.
+-  elements have an opening and a closing tag, plus content. The following are
+   all elements:
 
--  elements: paragraph
-   Use <p> to put content into paragraphs. It will break up your text and
-   make it easier to read for the user. Code (after code for header):
-     <p>
-     </p>
+     headings
+     There are 6 sizes for headings. The code is:
+      <h1></h1>
+      <h2></h2>
+      etc.
+      h1 defines the largest (= most important) heading and h6 the smallest.
 
--  element: link
-   A link lets the user click through to another webpage. The attribute
-   ==> href is an anchor tag that contains the URL address of the link: it is
-   used to indicate where the user should go:
-   <a href="https://..url and page of website..">..description reference..</a>
-   
-   ==> target is an anchor tag attribute that specifies where to open the link and 
-   the value "_blank" specifies to open the link in a new tab
-   Example: <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
+      paragraph
+      Use <p> to put content into paragraphs. It will break up your text and
+      make it easier to read for the user. Code (after code for header):
+         <p></p>
+
+      link
+      A link lets the user click through to another webpage. The attribute
+      ==> href is an anchor tag that contains the URL address of the link: it is
+      used to indicate where the user should go:
+      <a href="https://..url and page of website..">..description reference..</a>
+
+         ==> target is an anchor tag attribute that specifies where to open the
+             link and the value "_blank" specifies to open the link in a new tab:
+             <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
 
 -  element: div (= division element)
    The div element is a general purpose container for other elements.
@@ -72,29 +74,29 @@ WEBPAGE STRUCTURE
    </ol>
 
 -  element: Button
-   You can use radio buttons for questions where you want the user to only give you one answer 
+   You can use radio buttons for questions where you want the user to only give you one answer
    out of multiple options. Radio buttons are a type of input. Each of the radio buttons can
    be nested within its own label element. By wrapping an input element inside of a label element
    it will automatically associate the radio button input with the label element surrounding it.
 
-   All related radio buttons should have the same name attribute to create a radio button group. 
-   By creating a radio group, selecting any single radio button will automatically deselect the 
+   All related radio buttons should have the same name attribute to create a radio button group.
+   By creating a radio group, selecting any single radio button will automatically deselect the
    other buttons within the same group ensuring only one answer is provided by the user.
-   
-   It is considered best practice to set a for attribute on the label element, with a value that 
-   matches the value of the id attribute of the input element. This allows assistive technologies 
-   to create a linked relationship between the label and the child input element. 
+
+   It is considered best practice to set a for attribute on the label element, with a value that
+   matches the value of the id attribute of the input element. This allows assistive technologies
+   to create a linked relationship between the label and the child input element.
 -  Checkboxes:
    Forms commonly use checkboxes for questions that may have more than one answer. Checkboxes are
    a type of input. Each of the checkboxes can be nested within its own label element. By wrapping
    an input element inside of a label element it will automatically associate the checkbox input
-   with the label element surrounding it. All related checkbox inputs should have the same name 
+   with the label element surrounding it. All related checkbox inputs should have the same name
    attribute.
 
-   It is considered best practice to explicitly define the relationship between a checkbox input 
-   and its corresponding label by setting the for attribute on the label element to match the id 
+   It is considered best practice to explicitly define the relationship between a checkbox input
+   and its corresponding label by setting the for attribute on the label element to match the id
    attribute of the associated input element.
-   
+
 - <pre></pre> all that is within these tags is respected: in this way empty
   lines can be created, for example.
 
