@@ -23,9 +23,14 @@ WEBPAGE STRUCTURE
      </head>
      <body>
      </body>
-  NB: the links to the css stylesheets should come first, above the title.
+  In the head, the links to the css stylesheets should come first, above the title:
+  <link rel="stylesheet" href="file.css">.
   The styles.css link should be the last one you add. To start with a good
   layout without default values, include <link rel="stylesheet" href="reset.css">
+  The media attribute allows loading different stylesheets depending on the
+  device capabilities:
+  <link href="file.css" media="screen" rel="stylesheet">
+  <link href="file.css" media="print" rel="stylesheet">
 
 -  footer: will be repeated for each page
 
@@ -45,10 +50,9 @@ WEBPAGE STRUCTURE
       Use <p> to put content into paragraphs. It will break up your text and
       make it easier to read for the user. Code (after code for header): <p></p>
 
-      link:
-      A link lets the user click through to another webpage. The attribute
-      <a>href</a> is an anchor tag that contains the URL address of the link: it is
-      used to indicate where the user should go:
+      a (anchor tag):
+      The attribute  <a>href</a> is an anchor tag that contains the URL address
+      of the link: it is used to indicate where the user should go:
       <a href="https://..url and page of website..">..description reference..</a>
 
          ==> target is an anchor tag attribute that specifies where to open the
@@ -153,3 +157,5 @@ params=...>
 Attributes: key="value" syntax, such as class="", id="", src="", style=""
 An id is unique in the context of a web page and cannot be duplicated.
 A class can appear multiple times and hold multiple values.
+
+defer src is used for faster path to a fast-loading page.
