@@ -24,6 +24,8 @@ WEBPAGE STRUCTURE
      <body>
      </body>
 
+-  footer: will be repeated for each page
+
 HEAD:
 In the head, the links to the css stylesheets should come first, above the title:
 <link rel="stylesheet" href="file.css">.
@@ -72,7 +74,7 @@ INLINE elements can sit next to other inline elements. Width, margin etc. cannot
 be altered for inline elements. Inline elements cannot contain a block element.
 
 
--  footer: will be repeated for each page
+
 
 -  container: SECTION this is where the main content is specified, after the header.
 
@@ -81,10 +83,12 @@ be altered for inline elements. Inline elements cannot contain a block element.
 
       heading:
       There are 6 sizes for headings. The code is:
-      <h1></h1>
+      <h1></h1>  (usually only 1 per page: the page title)
       <h2></h2>
       etc.
       h1 defines the largest (= most important) heading and h6 the smallest.
+      SEO engines recognise headings. Headings are block elements and cannot
+      contain other elements.
 
       paragraph:
       Use <p> to put content into paragraphs. It will break up your text and
@@ -93,6 +97,10 @@ be altered for inline elements. Inline elements cannot contain a block element.
       block element can be added and no p element can be nested inside a <p>.
       By default, browsers style a paragraph with a margin on top and bottom,
       adding space between two consecutive paragraphs like paragraph in text.
+  <span></span> is an inline tag that can be used to create a section in a
+  paragraph that can be targeted using CSS.
+  <br> can be used to create a new line inside a p tag, without additional
+  spacing. <br> is an inline element.
 
       a (anchor tag):
       The attribute  <a>href</a> is an anchor tag that contains the URL address
