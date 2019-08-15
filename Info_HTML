@@ -59,12 +59,25 @@ width: <meta name="viewport" content="width=device-width, initial-scale=1">
 With <meta http-equiv="refresh" content="3;url=http://flavicon.com/anotherpage">
 as meta tag, the browser is told to wait 3 seconds before directing to the other page.
 
+BODY:
+There is only one body tag on a page (just like only one head and htlm tag).
+There are two general categories of elements in the body:
+  block elements: <p>, <div>, heading elements, lists and list items, etc.
+  inline elements: <a>, <span>, <img>, etc.
+
+BLOCK elements do not allow other elements on either side of them. Width/height,
+margin, padding and borders of block elements can be altered. A block element can
+contain an inline element or another block element.
+INLINE elements can sit next to other inline elements. Width, margin etc. cannot
+be altered for inline elements. Inline elements cannot contain a block element.
+
+
 -  footer: will be repeated for each page
 
 -  container: SECTION this is where the main content is specified, after the header.
 
--  elements have an opening and a closing tag, plus content. The following are
-   all elements:
+-  elements have an opening and a closing tag, plus content. All the following are
+   elements:
 
       heading:
       There are 6 sizes for headings. The code is:
@@ -76,6 +89,10 @@ as meta tag, the browser is told to wait 3 seconds before directing to the other
       paragraph:
       Use <p> to put content into paragraphs. It will break up your text and
       make it easier to read for the user. Code (after code for header): <p></p>
+      This is a block element. Inside it, an inline element can be added. No
+      block element can be added and no p element can be nested inside a <p>.
+      By default, browsers style a paragraph with a margin on top and bottom,
+      adding space between two consecutive paragraphs like paragraph in text.
 
       a (anchor tag):
       The attribute  <a>href</a> is an anchor tag that contains the URL address
