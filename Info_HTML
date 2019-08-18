@@ -97,10 +97,11 @@ be altered for inline elements. Inline elements cannot contain a block element.
       block element can be added and no p element can be nested inside a <p>.
       By default, browsers style a paragraph with a margin on top and bottom,
       adding space between two consecutive paragraphs like paragraph in text.
-  <span></span> is an inline tag that can be used to create a section in a
-  paragraph that can be targeted using CSS.
-  <br> can be used to create a new line inside a p tag, without additional
-  spacing. <br> is an inline element.
+
+      <span></span> is an inline tag that can be used to create a section in a
+      paragraph that can be targeted using CSS.
+      <br> can be used to create a new line inside a p tag, without additional
+      spacing. <br> is an inline element.
 
       a (anchor tag):
       The attribute  <a>href</a> is an anchor tag that contains the URL address
