@@ -74,8 +74,6 @@ INLINE elements can sit next to other inline elements. Width, margin etc. cannot
 be altered for inline elements. Inline elements cannot contain a block element.
 
 
-
-
 -  container: SECTION this is where the main content is specified, after the header.
 
 -  elements have an opening and a closing tag, plus content. All the following are
@@ -89,6 +87,7 @@ be altered for inline elements. Inline elements cannot contain a block element.
       h1 defines the largest (= most important) heading and h6 the smallest.
       SEO engines recognise headings. Headings are block elements and cannot
       contain other elements.
+
 
       paragraph:
       Use <p> to put content into paragraphs. It will break up your text and
@@ -118,13 +117,21 @@ be altered for inline elements. Inline elements cannot contain a block element.
       giving the grouped elements the same colour). Code to wrap around elements:
       <div></div>
 
-      ul: unordered list with bullets, and ol: ordered list with numbers
-      To be used with list items <li>. The code example is:
+      lists:
+      ul: unordered list with bullets, and ol: ordered list with numbers before
+      each item.  ul and ol are used with list items <li>. The code example is:
        <ol>
          <li>item 1</li>
          <li>item 2</li>
          etc.
        </ol>
+
+       <dl> = definition list, not often used. This consists of a term <dt> and
+       its definitioin <dd>, for example:
+       <dl>
+         <dt>John</dt>            (this will print John)
+         <dd>First name</dd>      (this will print First name, on the next line
+                                    and further indented than the term)
 
       button:
       You can use radio buttons for questions where you want the user to only give
@@ -154,8 +161,8 @@ be altered for inline elements. Inline elements cannot contain a block element.
    a checkbox input and its corresponding label by setting the for attribute on
    the label element to match the id attribute of the associated input element.
 
-- <pre></pre> all that is within these tags is respected: in this way empty
-  lines can be created, for example.
+-  <pre></pre> all that is within these tags is respected: in this way empty
+   lines can be created, for example.
 
 -  Image
    There should be a folder for images in the project folder. The images can
@@ -176,10 +183,33 @@ be altered for inline elements. Inline elements cannot contain a block element.
    First the link to the video should be added (with code <a href="">) and
    images of pictures can be added under this (small indent).
 
--  formatting:
-   to emphasise text: use <em>
-   to format text as important: use <strong>
-   to format text small: use <small>
+-  <strong>:
+   The strong tag is used to mark the text inside it as strong. It is not a
+   visual hint but a semantic hint. Its interpretation will vary depending
+   on the medium but by default browsers make the text in this tag 'bold' but
+   it is meant to indicate importance, not styling.
+
+-  <em>:
+   The em tag marks the text inside it as emphasized. Browsers by default
+   make this text italic.
+
+-  Other tags:
+   <small>
+   <mark>
+   <ins>
+   <del>
+   <sup>
+   <sub>
+   <i>
+   <b>
+
+-  <blockquote>:
+   The blockquote tag is used to insert citations in the text. By default,
+   browsers apply a margin to the blockquote text.
+
+-  <q>: The q tag is used for inline quotes.
+
+-  <hr>: adds a horizontal line in the page
 
 -  mailto link:
    A link can open up a user's email client and share content. The difference
