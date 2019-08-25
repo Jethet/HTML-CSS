@@ -101,20 +101,27 @@ be altered for inline elements. Inline elements cannot contain a block element.
       <br> can be used to create a new line inside a p tag, without additional
       spacing. <br> is an inline element.
 
-      a (anchor tag):
-      The attribute  <a>href</a> is an anchor tag that contains the URL address
-      of the link: it is used to indicate where the user should go:
-      <a href="https://..url and page of website..">..description reference..</a>
-
-         ==> target is an anchor tag attribute that specifies where to open the
-             link and the value "_blank" specifies to open the link in a new tab:
-             <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
-
       div (= division element):
-      The div is a general purpose container for other elements.
+      The div is a general purpose container for other elements, to be used
+      anywhere a container is needed but where an existing tag is not suited.
       A div tag groups elements together. This is useful for styling (e.g.
       giving the grouped elements the same colour). Code to wrap around elements:
       <div></div>
+
+      article (semantic element)
+      The article tag identifies self-contained and independent content in a
+      page and can be reused independently, such as blog posts or newspaper
+      articles. Code: <article></article>
+
+      section (semantic element)
+      A section element defines a section in a document: <section></section>
+      It is useful to break a long article into different sections, for example.
+
+NOTE: sections can have articles and articles can have sections; no precedence.
+
+      nav
+      This tag is used to create the markup that defines the page navigation.
+      It is typically used with a ul or ol list. Code: <nav></nav>
 
       lists:
       ul: unordered list with bullets, and ol: ordered list with numbers before
@@ -182,6 +189,7 @@ be altered for inline elements. Inline elements cannot contain a block element.
    First the link to the video should be added (with code <a href="">) and
    images of pictures can be added under this (small indent).
 
+TAGS
 -  <strong>:
    The strong tag is used to mark the text inside it as strong. It is not a
    visual hint but a semantic hint. Its interpretation will vary depending
@@ -212,7 +220,10 @@ be altered for inline elements. Inline elements cannot contain a block element.
 
 LINKS
 Links are defined by using the <a> tag and the link destination is set with
-the href attribute.
+the href attribute. It is an anchor tag that contains the URL address
+of the link: it is used to indicate where the user should go:
+  <a href="https://..url and page of website..">..description reference..</a>
+
 -  regular link:
    <a href="https://codebar.io">Click here</a>  ==> this is an absolute URL.
    Links also work with relative URLs by using / in the href.
@@ -231,6 +242,10 @@ the href attribute.
    A share-on-Twitter link can be added as follows:
    <a href="https://twitter.com/home?status=I love owls! via @codebar">
       Share your love of owls on Twitter</a>
+
+  ==> target is an anchor tag attribute that specifies where to open the
+      link and the value "_blank" specifies to open the link in a new tab:
+      <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
 
 RESPONSIVE LAYOUT:
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
