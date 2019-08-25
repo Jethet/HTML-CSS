@@ -73,8 +73,16 @@ contain an inline element or another block element.
 INLINE elements can sit next to other inline elements. Width, margin etc. cannot
 be altered for inline elements. Inline elements cannot contain a block element.
 
+HEADER
+The header tag represents the part that is the introduction. It usually contains
+a heading tag, a tagline for an article or image, etc. Code: <header></header>
 
--  container: this is where the main content is specified, after the header.
+MAIN
+The main tag represents the main part of a page. Code: <main></main>
+
+FOOTER
+The footer tag is used to determine the footer of an article or page.
+Code: <footer></footer>
 
 -  elements have an opening and a closing tag, plus content. All the following are
    elements:
@@ -122,6 +130,12 @@ NOTE: sections can have articles and articles can have sections; no precedence.
       nav
       This tag is used to create the markup that defines the page navigation.
       It is typically used with a ul or ol list. Code: <nav></nav>
+
+      aside
+      The aside tag is used to add content that is related to the main content,
+      for example a box to add a quote, or a sidebar. Aside indicates that the
+      things it contains are not part of the regular flow of the section in
+      which aside is present. Code: <aside></aside>
 
       lists:
       ul: unordered list with bullets, and ol: ordered list with numbers before
@@ -246,6 +260,10 @@ of the link: it is used to indicate where the user should go:
   ==> target is an anchor tag attribute that specifies where to open the
       link and the value "_blank" specifies to open the link in a new tab:
       <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
+
+FORMS
+
+
 
 RESPONSIVE LAYOUT:
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
