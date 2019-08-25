@@ -74,7 +74,7 @@ INLINE elements can sit next to other inline elements. Width, margin etc. cannot
 be altered for inline elements. Inline elements cannot contain a block element.
 
 
--  container: SECTION this is where the main content is specified, after the header.
+-  container: this is where the main content is specified, after the header.
 
 -  elements have an opening and a closing tag, plus content. All the following are
    elements:
@@ -87,7 +87,6 @@ be altered for inline elements. Inline elements cannot contain a block element.
       h1 defines the largest (= most important) heading and h6 the smallest.
       SEO engines recognise headings. Headings are block elements and cannot
       contain other elements.
-
 
       paragraph:
       Use <p> to put content into paragraphs. It will break up your text and
@@ -187,21 +186,21 @@ be altered for inline elements. Inline elements cannot contain a block element.
    The strong tag is used to mark the text inside it as strong. It is not a
    visual hint but a semantic hint. Its interpretation will vary depending
    on the medium but by default browsers make the text in this tag 'bold' but
-   it is meant to indicate importance, not styling.
+   it is meant to indicate importance, not styling as with <b>.
 
 -  <em>:
-   The em tag marks the text inside it as emphasized. Browsers by default
-   make this text italic.
+   The em tag marks the text inside it as emphasised. Browsers by default
+   make this text italic. Also indicates importance, not styling as with <i>.
 
 -  Other tags:
-   <small>
-   <mark>
-   <ins>
-   <del>
-   <sup>
-   <sub>
-   <i>
-   <b>
+   <small>  makes the font smaller (size of subscript)
+   <mark>   puts the text in highlight
+   <ins>    makes text look as if inserted by underlining it
+   <del>    makes text look deleted by crossing it out
+   <sup>    puts text as superscript
+   <sub>    puts text as subscript
+   <i>      makes text italic
+   <b>      makes text bold
 
 -  <blockquote>:
    The blockquote tag is used to insert citations in the text. By default,
@@ -211,6 +210,16 @@ be altered for inline elements. Inline elements cannot contain a block element.
 
 -  <hr>: adds a horizontal line in the page
 
+LINKS
+Links are defined by using the <a> tag and the link destination is set with
+the href attribute.
+-  regular link:
+   <a href="https://codebar.io">Click here</a>  ==> this is an absolute URL.
+   Links also work with relative URLs by using / in the href.
+   Links can include text, images or any other element but not other links.
+   Example image: <a href="https://codebar.io">
+                    <img src="test.jpg">
+                  </a>
 -  mailto link:
    A link can open up a user's email client and share content. The difference
    between regular links and mailto links is the content defined in the href
