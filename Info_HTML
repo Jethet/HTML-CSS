@@ -262,6 +262,49 @@ of the link: it is used to indicate where the user should go:
       <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
 
 FORMS
+Forms are used to interact with a page or app. When a form is submitted, data
+is sent to the server by the browser. This causes the page to reload (can be
+changed using JavaScript). Code: <form></form>
+By default, forms are submitted using GET HTTP. Using POST is preferable in
+most cases. This can be changed using the attribute: method. Code:
+<form method="POST">  ... </form>
+
+The form is submitted to the same URL where it resides. The server needs to
+handle the request and must 'listen' for form submit events on a dedicated URL.
+The URL can be specified via the parameter: action. Code:
+<form action="/example" method="POST"> ..... </form>
+The browser will submit the form data using POST to the /example URL on the
+same origin.
+
+DATA PROVIDED VIA FORMS
+
+input: this is one of the most widely used form elements, very flexible,
+       it can change behaviour based on the attribute: type. Default is
+       single-line text input: <input> (is the same as: <input type="text">)
+       All fields need to have a field name: <input type="text" name="username">
+       Attribute 'placeholder' makes text show p in an empty field as a hint
+       for the user: <input type="text" name="username" placeholder="Username">
+
+email: to validate an email for semantic correctness, use:
+       <input type="email" name="email" placeholder="Your email">
+
+password: every key entered will appear as an asterisk (*) or dot (.) by using:
+          <input type="password" name="password" placeholder="Your password">
+
+numbers: with type="number" the input element will only accept numbers:
+         <input type="number" name="age" placeholder="Your age">
+         To specify a minimum and maximum, use: min="18" max="110"
+         Use step="x" to accept a value between different values in steps of 'x'.
+
+hidden field: fields can be hidden from the user but will still be sent to the
+       server upon form submit, for example to store values like a CSRF token:
+       <input type="hidden" name="some-hidden-field" value="some-value">
+
+All these fields accept a predefined value that will be sent to the server if
+the user does not change the value, for example default age is 18:
+  <input type="number" name="age" value="18">
+A placeholder can be set and will appear if the user clears the input field value:
+  <input type="number" name="age" placeholder="Your age" value="18">
 
 
 
