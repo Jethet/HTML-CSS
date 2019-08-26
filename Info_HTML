@@ -340,7 +340,24 @@ When the button is clicked, something happens (programmed using JavaScript).
 reset button: there is a special action to clear the form and bring back the
               default fields:  <input type="reset">
 
-radio button: 
+radio button: radio buttons create a set of choices, of which one is pressed
+              and then all others are disabled (name comes from old car radios).
+              The set is defined with same name but different value attributes:
+                <input type="radio" name="colour" value="yellow">
+                <input type="radio" name="colour" value="red">
+                <input type="radio" name="colour" value="blue">
+              It is possible to set a pre-selected value (only once per set),
+              using the attribute: checked.
+
+checkbox: similar to radio buttons but allow multiple values to be chosen (or
+          none at all). type="checkbox", by default all unchecked.
+
+Date and time:
+type="date"  - allows user to enter a date and shows a date picker if needed
+type="time"  - allows user to enter a time and shows a date picker if needed
+type="month" - allows user to enter a month and a year
+type="week"  - allows user to enter a week and a year
+type="datetime-local" field lets the user choose a date and a time.
 
 
 RESPONSIVE LAYOUT:
