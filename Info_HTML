@@ -378,6 +378,34 @@ URL:
 Input field to enter a URL; with pattern attribute, validation can be specified:
     <input type="url" name="website" pattern="https://.*">
 
+Multi-line text: textarea
+With the textarea element users can enter multi-line text. This requires an
+ending tag:  <textarea></textarea>
+CSS can be used or attributes rows and cols: <textarea rows="20" cols="10"></textarea>
+
+Drop-down menu: select
+The select tag creates a drop-down menu and the user can choose one of the options
+available. The options are created with <option></option>:
+   <select name="colour">
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+   </select>
+Set an option disabled: <option value="red" disabled>Red</option>
+Set an option empty:    <option value="">None</option>
+
+Options can be grouped with <optgroup></optgroup>. An option group has a label
+attribute:
+    <select name="colour">
+      <optgroup label="Primary">
+         <option value="red">Red</option>
+         <option value="yellow">Yellow</option>
+      </optgroup>
+      <optgroup label="Other">
+        <option value="pink">Pink</option>
+        <option value="purple">Purple</option>
+      </optgroup>
+    </select>
+
 
 RESPONSIVE LAYOUT:
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
