@@ -306,6 +306,41 @@ the user does not change the value, for example default age is 18:
 A placeholder can be set and will appear if the user clears the input field value:
   <input type="number" name="age" placeholder="Your age" value="18">
 
+submit: this is a button that can be pressed by the user to submit the form:
+        <input type="submit">
+        A value attribute can be used to use a different text than 'submit':
+        <input type="submit" value="Click here">
+
+Set fields as required:
+The required attribute helps with validation. If the field is not set, client-side
+validation fails and the browser does not submit the form:
+    <input type="text" name="username" required>
+
+Set specific format:
+With the pattern attribute a specific format can be enforced on any field. The
+pattern attribute gives the ability to set a regular expression to validate the
+value against:  <input type="text" name="username" pattern="[a-zA-Z]{8}">
+(see documentation on regular expressions).
+
+File uploads:
+Load files from local computer and send them to the server using type="file":
+  <input type="file" name="example-name">
+This goes for multiple files:
+  <input type="file" name="examples-names" multiple>
+File types that are allowed can be specified with attribute: accept
+  <input type="file" name="examples-names" accept="image/*">
+You can use a MIME type or set a file extension:
+  <input type="file" name="examples-names" accept=".jpg, .jpeg, .png">
+
+Buttons:
+The input field type="button" can be used to add additional buttons to the form
+that are not submit buttons:  <input type="button" value="Click here">
+When the button is clicked, something happens (programmed using JavaScript).
+
+reset button: there is a special action to clear the form and bring back the
+              default fields:  <input type="reset">
+
+radio button: 
 
 
 RESPONSIVE LAYOUT:
