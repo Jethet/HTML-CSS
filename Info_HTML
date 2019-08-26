@@ -359,6 +359,25 @@ type="month" - allows user to enter a month and a year
 type="week"  - allows user to enter a week and a year
 type="datetime-local" field lets the user choose a date and a time.
 
+Colour picker:
+With the element type="color" the user can be asked to pick a colour. The browser
+will take care of showing a colour picker to the user. A default value can also
+be set:    <input type="color" name="example-colour" value="#000000">
+
+Range:
+The range input element shows a slider and the user can move it from a starting
+value to an ending value, if required also with an optional step:
+    <input type="range" name="age" min="0" max="100" value="30" step="10">
+
+Telephone:
+Input field to enter a phone number; can show a numeric keyboard on a mobile.
+With pattern an additional validation can be specified:
+    <input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="telephone-number">
+
+URL:
+Input field to enter a URL; with pattern attribute, validation can be specified:
+    <input type="url" name="website" pattern="https://.*">
+
 
 RESPONSIVE LAYOUT:
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
