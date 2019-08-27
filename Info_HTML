@@ -438,8 +438,18 @@ row:
       <td>Row 2 column 3</td>
     </tr>
   </table>
+(adding CSS padding and border for th and td makes the table look more
+like a proper table).
 
-
+Span:
+A row can span over 2 or more columns using colspan:
+   <tr>
+      <td colspan="2">Row 1 Columns 1-2</td>
+   </tr>
+A row can span over 2 or more rows using rowspan:
+   <tr>
+      <td colspan="2">Row 1 Columns 1-2</td>
+   </tr>
 ________________________________________________________________________________
 
 RESPONSIVE LAYOUT:
