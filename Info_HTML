@@ -83,8 +83,10 @@ The main tag represents the main part of a page. Code: <main></main>
 FOOTER
 The footer tag is used to determine the footer of an article or page.
 Code: <footer></footer>
+________________________________________________________________________________
 
--  elements have an opening and a closing tag, plus content. All the following are
+ELEMENTS
+Elements have an opening and a closing tag, plus content. All the following are
    elements:
 
       heading:
@@ -153,33 +155,6 @@ NOTE: sections can have articles and articles can have sections; no precedence.
          <dd>First name</dd>      (this will print First name, on the next line
                                     and further indented than the term)
 
-      button:
-      You can use radio buttons for questions where you want the user to only give
-      you one answer out of multiple options. Radio buttons are a type of input.
-      Each of the radio buttons can be nested within its own label element.
-      By wrapping an input element inside of a label element it will automatically
-      associate the radio button input with the label element surrounding it.
-
-      All related radio buttons should have the same name attribute to create a
-      radio button group. By creating a radio group, selecting any single radio
-      button will automatically deselect the other buttons within the same group
-      ensuring only one answer is provided by the user.
-
-   It is considered best practice to set a for attribute on the label element,
-   with a value that matches the value of the id attribute of the input element.
-   This allows assistive technologies to create a linked relationship between
-   the label and the child input element.
-
--  Checkboxes:
-   Forms commonly use checkboxes for questions that may have more than one answer.
-   Checkboxes are a type of input. Each of the checkboxes can be nested within its
-   own label element. By wrapping an input element inside of a label element it
-   will automatically associate the checkbox input with the label element surrounding
-   it. All related checkbox inputs should have the same name attribute.
-
-   It is considered best practice to explicitly define the relationship between
-   a checkbox input and its corresponding label by setting the for attribute on
-   the label element to match the id attribute of the associated input element.
 
 -  <pre></pre> all that is within these tags is respected: in this way empty
    lines can be created, for example.
@@ -340,7 +315,7 @@ When the button is clicked, something happens (programmed using JavaScript).
 reset button: there is a special action to clear the form and bring back the
               default fields:  <input type="reset">
 
-radio button: radio buttons create a set of choices, of which one is pressed
+Radio buttons create a set of choices, of which one is pressed
               and then all others are disabled (name comes from old car radios).
               The set is defined with same name but different value attributes:
                 <input type="radio" name="colour" value="yellow">
@@ -350,7 +325,16 @@ radio button: radio buttons create a set of choices, of which one is pressed
               using the attribute: checked.
 
 checkbox: similar to radio buttons but allow multiple values to be chosen (or
-          none at all). type="checkbox", by default all unchecked.
+none at all). type="checkbox", by default all unchecked. Forms commonly use
+checkboxes for questions that may have more than one answer. Checkboxes are a
+ type of input. Each of the checkboxes can be nested within its own label element.
+ By wrapping an input element inside of a label element it will automatically
+ associate the checkbox input with the label element surrounding it. All related
+ checkbox inputs should have the same name attribute.
+
+ It is considered best practice to explicitly define the relationship between
+ a checkbox input and its corresponding label by setting the for attribute on
+ the label element to match the id attribute of the associated input element.
 
 Date and time:
 type="date"  - allows user to enter a date and shows a date picker if needed
@@ -405,6 +389,13 @@ attribute:
         <option value="purple">Purple</option>
       </optgroup>
     </select>
+
+It is considered best practice to set a for attribute on the label element,
+with a value that matches the value of the id attribute of the input element.
+This allows assistive technologies to create a linked relationship between
+the label and the child input element.
+
+TABLES
 
 
 RESPONSIVE LAYOUT:
