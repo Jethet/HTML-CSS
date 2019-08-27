@@ -413,20 +413,30 @@ ________________________________________________________________________________
 TABLES
 Create a table:   <table> ..... </table>
 Data in a table is defined in terms of rows, not columns. The columns are
-defined inside a row. A row is added by using:   <tr></tr>
-The first row can take the role of the header, if needed.
+defined inside a row. The first row can take the role of the header, if needed.
 
-The table header contains the name of a column, typically in bold font. The
-header can be defined using the th tag. Example of a table with 3 rows and 3
-columns in the first row:
+The table header contains the name of a column, typically in bold font.
+The header can be defined using: <th></th>
+A row is added by using:   <tr></tr>
+The content is defined using: <td></td>
+Example of a table with 3 rows with content, and 3 columns defined in the first
+row:
   <table>
     <tr>
       <th>Column 1</th>
       <th>Column 2</th>
       <th>Column 3</th>
     </tr>
-    <tr></tr>
-    <tr></tr>
+    <tr>
+      <td>Row 1 column 1</td>
+      <td>Row 1 column 2</td>
+      <td>Row 1 column 3</td>
+    </tr>
+    <tr>
+      <td>Row 2 column 1</td>
+      <td>Row 2 column 2</td>
+      <td>Row 2 column 3</td>
+    </tr>
   </table>
 
 
