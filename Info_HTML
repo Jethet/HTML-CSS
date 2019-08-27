@@ -465,6 +465,31 @@ the different sections:
 <thead></thead>   (header)
 <tbody></tbody>   (body)
 <tfoot<>/tfoot>   (footer)
+________________________________________________________________________________
+
+MULTIMEDIA TAGS - AUDIO AND VIDEO
+
+Audio:
+The <audio> tag enables embedding audio content in an HTML page. It can play an
+audio source using the src attribute:   <audio src="file.mp3">
+Show the built-in controls with controls attribute: <audio src="file.mp3" controls>
+To set the audio file to play automatically, use autoplay:
+   <audio src="file.mp3" controls autoplay>
+With loop the audio restarts: <audio src="file.mp3" controls autoplay loop>
+If loop is not used, the audio stops at the end of the file.
+
+Video:
+The <video> tag enables embedding video content in an HTML page, for example
+with the src attribute:   <video src="file.mp4">
+The same tags as for audio apply (controls, autoplay, loop). It is possible to
+set an image as poster image: <video src="file.mp4" poster="picture.png">
+Without poster the browser will show the first frame of the video as soon as it
+is available. With width and height attributes the space for the element can be
+specified so that the browser does not change the layout.
+
+Iframes:
+
+
 
 ________________________________________________________________________________
 
