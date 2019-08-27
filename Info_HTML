@@ -440,6 +440,14 @@ row:
   </table>
 (adding CSS padding and border for th and td makes the table look more
 like a proper table).
+To get a row heading or an empty first column heading above the rows,
+use <th></th> in the heading <tr></tr>
+In the example, this would give:
+  <tr>
+    <th></th>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </tr>
 
 Span:
 A row can span over 2 or more columns using colspan:
