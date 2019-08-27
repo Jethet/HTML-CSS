@@ -414,7 +414,8 @@ TABLES
 Create a table:   <table> ..... </table>
 Data in a table is defined in terms of rows, not columns. The columns are
 defined inside a row. The first row can take the role of the header, if needed.
-
+A table must have a <caption></caption> tag that describes the content. This tag
+comes immediately after the opening <table> tag.
 The table header contains the name of a column, typically in bold font.
 The header can be defined using: <th></th>
 A row is added by using:   <tr></tr>
@@ -458,6 +459,13 @@ A row can span over 2 or more rows using rowspan:
    <tr>
       <td colspan="2">Row 1 Columns 1-2</td>
    </tr>
+
+For big tables there are 3 tags to organise the table to wrap <tr>'s to define
+the different sections:
+<thead></thead>   (header)
+<tbody></tbody>   (body)
+<tfoot<>/tfoot>   (footer)
+
 ________________________________________________________________________________
 
 RESPONSIVE LAYOUT:
