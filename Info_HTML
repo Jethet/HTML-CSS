@@ -170,10 +170,10 @@ NOTE: sections can have articles and articles can have sections; no precedence.
 -  <pre></pre> all that is within these tags is respected: in this way empty
    lines can be created, for example.
 
--  Image
-   There should be a folder for images in the project folder. The images can
-   be downloaded by right clicking on a link and select 'Save as ...', and
-   save the images to the image folder.
+-  image
+   There should always be a folder for images in the project folder.
+   The images can be downloaded by right clicking on a link and select
+   'Save as ...', and save the images to the image folder.
    Images have three primary attributes:
    * the <img> tag
    * the src attribute that lets the page know what image the user wants to see
@@ -411,6 +411,24 @@ the label and the child input element.
 ________________________________________________________________________________
 
 TABLES
+Create a table:   <table> ..... </table>
+Data in a table is defined in terms of rows, not columns. The columns are
+defined inside a row. A row is added by using:   <tr></tr>
+The first row can take the role of the header, if needed.
+
+The table header contains the name of a column, typically in bold font. The
+header can be defined using the th tag. Example of a table with 3 rows and 3
+columns in the first row:
+  <table>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+  </table>
+
 
 ________________________________________________________________________________
 
