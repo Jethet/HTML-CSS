@@ -1,8 +1,19 @@
+VARIOUS
 -  comments that should be ignored in HTML code:
    Use special tag to add notes that will be ignored:
      <!-- Note to self: xxx xxx -->
 - meta data is not rendered but used by the server (for example: description and
   keywords are giving information that will be used by Google)
+- TO SPLIT LINES OF HTML CODE:
+    <code><other_code
+      params=...>
+
+- Attributes: key="value" syntax, such as class="", id="", src="", style=""
+  An id is unique in the context of a web page and cannot be duplicated.
+  A class can appear multiple times and hold multiple values.
+
+- defer src is used for faster path to a fast-loading page.
+________________________________________________________________________________
 
 WEBPAGE STRUCTURE
 -  doctype needs to be defined first in an HTML page: it tells the
@@ -177,6 +188,7 @@ NOTE: sections can have articles and articles can have sections; no precedence.
    It is possible to link to a video and combine this with pictures.
    First the link to the video should be added (with code <a href="">) and
    images of pictures can be added under this (small indent).
+________________________________________________________________________________
 
 TAGS
 -  <strong>:
@@ -206,6 +218,7 @@ TAGS
 -  <q>: The q tag is used for inline quotes.
 
 -  <hr>: adds a horizontal line in the page
+________________________________________________________________________________
 
 LINKS
 Links are defined by using the <a> tag and the link destination is set with
@@ -235,6 +248,7 @@ of the link: it is used to indicate where the user should go:
   ==> target is an anchor tag attribute that specifies where to open the
       link and the value "_blank" specifies to open the link in a new tab:
       <a target="_blank" href="http://freecodecamp.org">Freecodecamp.org</a>
+________________________________________________________________________________
 
 FORMS
 Forms are used to interact with a page or app. When a form is submitted, data
@@ -327,14 +341,14 @@ Radio buttons create a set of choices, of which one is pressed
 checkbox: similar to radio buttons but allow multiple values to be chosen (or
 none at all). type="checkbox", by default all unchecked. Forms commonly use
 checkboxes for questions that may have more than one answer. Checkboxes are a
- type of input. Each of the checkboxes can be nested within its own label element.
- By wrapping an input element inside of a label element it will automatically
- associate the checkbox input with the label element surrounding it. All related
- checkbox inputs should have the same name attribute.
+type of input. Each of the checkboxes can be nested within its own label element.
+By wrapping an input element inside of a label element it will automatically
+associate the checkbox input with the label element surrounding it. All related
+checkbox inputs should have the same name attribute.
 
- It is considered best practice to explicitly define the relationship between
- a checkbox input and its corresponding label by setting the for attribute on
- the label element to match the id attribute of the associated input element.
+It is considered best practice to explicitly define the relationship between
+a checkbox input and its corresponding label by setting the for attribute on
+the label element to match the id attribute of the associated input element.
 
 Date and time:
 type="date"  - allows user to enter a date and shows a date picker if needed
@@ -394,9 +408,11 @@ It is considered best practice to set a for attribute on the label element,
 with a value that matches the value of the id attribute of the input element.
 This allows assistive technologies to create a linked relationship between
 the label and the child input element.
+________________________________________________________________________________
 
 TABLES
 
+________________________________________________________________________________
 
 RESPONSIVE LAYOUT:
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
@@ -407,13 +423,3 @@ There is a hierarchy of content, for example:
 2 - content text
 3 - resources
 4 - author info
-
-SPLIT LINES OF HTML CODE:
-<code><other_code
-params=...>
-
-Attributes: key="value" syntax, such as class="", id="", src="", style=""
-An id is unique in the context of a web page and cannot be duplicated.
-A class can appear multiple times and hold multiple values.
-
-defer src is used for faster path to a fast-loading page.
