@@ -488,7 +488,53 @@ is available. With width and height attributes the space for the element can be
 specified so that the browser does not change the layout.
 
 Iframes:
+Content from other websites can be embedded in a web page using the iframe tag.
+An iframe creates a new nested browsing context that does not interfere with the
+parent page (and vice versa). It can be used to do something in one part of the
+page (coding, for example) and see the result in a box. Code for simple iframe:
+<iframe src="page.html"></iframe>
+It is possible to lead an absolute URL: <iframe src="https://site.com/page.html">
+</iframe>
+Set width/height parameters: <iframe src="page.html" width="xx" height="xx"></iframe>
+(or with CSS).
 
+Srcdoc:
+The srcdoc attribute specifies the HTML content of the page to show in the inline
+frame. If a browser supports the srcdoc attribute, it will override the content
+specified in the src attribute (if present). If a browser does not support the
+srcdoc attribute, it will show the file specified in the src attribute instead.
+
+Sandbox:
+The sandbox attribute can limit operations allowed in iframes by adding options:
+<iframe src="page.html" sandbox="allow-forms"></iframe>
+There are options such as "" (nothing is allowed), allow-modals, allow-popups,
+allow-scripts, allow-top-navigation and others.
+
+Referrer:
+When loading an iframe, the browser sends important information in the Referer
+header (NOTE: misspelt by tradition). This is a header that lets the page know
+who is loading it. The referrerpolicy attribute has the following allowed values:
+no-referrer-when-downgrade: default setting; does not send the referrer when the
+                            current page is loaded over HTTPS while the iframe
+                            loads over the HTTP protocol
+no-referrer: does not send the referrer header
+origin: the referrer is sent and only contains the origin (port, protocol,
+        domain), not the origin + path which is the default
+origin-when-cross-origin: when loading from same origin in iframe, the referrer
+                          is sent in its complete form (origin + path)
+same-origin: the referrer is sent only when loading from same origin (port,
+             protocol, domain) in the iframe
+strict-origin: sends the origin as the referrer if the current page is loaded
+               over HTTPS and the iframe also loads over the HTTPS protocol.
+               Sends nothing if the iframe is loaded over the HTTP protocol.
+strict-origin-when-cross-origin: sends the origin + path as the referrer when
+                                 working on the same origin. Sends the origin
+                                 as the referrer if the current page is loaded
+                                 over HTTPS and the iframe also loads on HTTPS.
+                                 Sends nothing if the iframe is loaded over
+                                 HTTP.
+unsafe-url: sends the origin + path as the referrer even when loading resources
+            form HTTP and the current page is loaded over HTTPS.
 
 
 ________________________________________________________________________________
