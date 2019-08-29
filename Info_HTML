@@ -558,23 +558,36 @@ With srcset responsive images can be set that the browser can use depending on
 pixel density or window width. The browser can only download the resources it
 needs to render the page (for example, not a big image for a mobile phone).
 Example of 4 images for 4 screen sizes:
-<img src="example.png" alt="A picture of an example"
-    srcset="example-500.png" 500w, example-800.png 800w,
-    example 1000.png 1000w, example-1400.png 1400w">
+  <img src="example.png" alt="A picture of an example"
+      srcset="example-500.png" 500w, example-800.png 800w,
+      example 1000.png 1000w, example-1400.png 1400w">
 When using w for window width, the sizes attribute must be used as well:
-<img src="example.png" alt="A picture of an example"
-    sizes="(max-width: 500px) 100 vw, (max-width: 900px) 50vw, 800px"
-    srcset="example-500.png" 500w, example-800.png 800w,
-    example 1000.png 1000w, example-1400.png 1400w">
+  <img src="example.png" alt="A picture of an example"
+      sizes="(max-width: 500px) 100 vw, (max-width: 900px) 50vw, 800px"
+      srcset="example-500.png" 500w, example-800.png 800w,
+      example 1000.png 1000w, example-1400.png 1400w">
 This example shows how the sizes attribute describes the size of the image in
 relation to the viewport, with multiple conditions. 1vw = 1% of the window
-width and 100vw is 100% of the window width.
+width and 100vw is 100% of the window width. Depending on the window width,
+the image is rendered in a percentage of the viewport.
 
+picture tag:
+The picture tag does a similar jog as the srcset but is used when instead of
+rendering a smaller version of a file, a different image format or a completely
+different file should be rendered. In the picture tag a list of images can be
+specified and these will be used in order. Example:
+  <picture>
+      <source type="image.png" srcset="image.png"
+      <img src="image.jpg" alt="An example image">
+  </picture>
+The img tag is the fallback option if the browser does not support the picture
+tag.
 
 ________________________________________________________________________________
 
 RESPONSIVE LAYOUT:
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css links)
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> (after css
+links).
 The mobile-first approach is a way to design with consideration for the restrictions
 posed by mobile phones: focus on core content and functionality, consider bandwidth.
 There is a hierarchy of content, for example:
@@ -582,3 +595,4 @@ There is a hierarchy of content, for example:
 2 - content text
 3 - resources
 4 - author info
+________________________________________________________________________________
