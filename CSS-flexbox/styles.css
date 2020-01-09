@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .menu-container {
     color: #fff;
     background-color: #5995DA;
@@ -11,30 +10,25 @@
     display: flex;
     justify-content: center;
 }
-
 .menu {
     border: 1px solid #fff;
     width: 900px;
     display: flex;
     justify-content: space-between;
 }
-
 .links {
     display: flex;
     justify-content: flex-end;
 }
-
 .login {
     margin-left: 20px;
 }
-
 .header-container {
     color: #5995DA;
     background-color: #D6E9FE;
     display: flex;
     justify-content: center;
 }
-
 .header {
     width: 900px;
     height: 300px;
@@ -42,9 +36,25 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .social,
 .logo,
 .subscribe {
     border: 1px solid #5995DA;
+}
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+.photo-grid {
+    widows: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;    
+}
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
 }
