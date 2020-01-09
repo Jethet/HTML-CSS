@@ -5,5 +5,12 @@
 }
 
 .menu-container {
-    
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+}
+
+.menu {
+    border: 1px solid #fff;
+    width: 900px;
 }
