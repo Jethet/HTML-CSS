@@ -19,6 +19,8 @@ selector {
 }
 A group of properties for a given selector is always defined within the curly
 braces, as shown above.
+With the * selector ALL elements are selected. * can also select all elements
+inside another element.
 Text decoration includes underline, overline and line-through.
 
 SELECTOR: The part of a CSS rule that determines which HTML elements the rule
@@ -228,3 +230,20 @@ item on a list with the 'child' element: :nth-child(odd) and :nth-child(even)
 To use grid layout, always start with: display: grid;
 
 IMAGES: always optimise beforehand (scaling etc.) to have small filesize
+-------------------------------------------------------------------------------
+FLEXBOX:
+Note: when you change row to column, you ALSO need  to change the direction of
+ 'justify-content' because this now refers to vertical alignment. Use
+  'align-items:' for this.
+
+ORDER: Adding an order property to a flex item defines its order in the container 
+without affecting surrounding items. Its default value is 0, and increasing or
+decreasing it from there moves the item to the right or left, respectively.
+This can be used, for example, to swap order of the .first-item and .last-item
+elements in a grid. 
+
+STATIC ITEM WIDTHS: mix flexible boxes with fixed-width boxes
+Many websites have a fixed-width sidebar (or multiple sidebars) and a flexible 
+content block containing the main text of the page. This results in a flexible
+layout where the middle(main) box gets resized with the browser window, but not 
+the sidebar(s).
