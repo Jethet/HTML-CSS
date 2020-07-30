@@ -3,46 +3,216 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end of boilerplate */
+
+body {
+  width: 70%;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center; */
+  border: 2px solid rgb(5, 5, 73);
+  font-size: 16px;
+}
+
+header {
+  height: 150px;
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(5, 5, 73);
+}
+
+header h1 {
+  padding-top: 60px;
+  margin-left: 60px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: rgb(241, 79, 15);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.section-one {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.section-one-image {
+  width: auto;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.section-one-text {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.section-two {
+  background-color: rgb(5, 5, 73);
+  color: whitesmoke;
+  padding-bottom: 50px;
+}
+
+.section-two-content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.section-two-text {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.section-two-text p {
+  margin-bottom: 15px;
+}
+
+.section-two-button-one {
+  padding: 5px 10px;
+  background-color: rgb(241, 79, 15);
+  color: whitesmoke;
+  border-color: rgb(241, 79, 15);
+  margin-right: 8px;
+}
+
+.section-two-button-two {
+  padding: 5px 10px;
+  
 }
