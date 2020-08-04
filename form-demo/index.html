@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form demo</title>
+</head>
+
+<body>
+  <section class="row">
+    <div class="grid">
+      <section class="col-2-3">
+        <h2>Buy a Conference Pass</h2>
+        <h5>99 euro per Pass</h5>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+          opposed to using 'Content here, content here', making it look like readable English.</p>
+        <h4>Why Attend?</h4>
+        <ul class="why-attend">
+          <li>The point of using Lorem Ipsum</li>
+          <li>Content here, content here</li>
+          <li>It is a long established fact that a reader will be distracted</li>
+        </ul>
+      </section>
+
+      <form class="col-1-3" action="#" method="POST">
+        <fieldset class="register-group">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Full name" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Email address" required>
+          </label>
+
+          <label>
+            Number of Passes
+            <select name="quantity" required>
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+
+            </select>
+          </label>
+
+          <label>
+            Comments
+            <textarea name="comments"></textarea>
+          </label>
+        </fieldset>
+        <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+
+      </form>
+
+    </div>
+  </section>
+
+</body>
+
+</html>
