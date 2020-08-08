@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #f3eed9;
+}
+
+.header-container {
+  max-width: 1128px;
+  min-height: 660px;
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+header p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.main-container {
+  max-width: 1128px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+}
+
+.first-block {
+  height: 450px;
+}
+
+.first-block h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  color: #824936;
+}
+
+.text-first-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-family: "Roboto Regular";
+  font-size: 21px;
+}
+
+.first-block p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.second-block {
+  height: 450px;
+  color: #f3eed9;
+  background-color: #222c2a;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+.text-second-block{
+  width: 50%;
+  margin-top: 70px;
+  padding-left: 100px;
+  padding-right: 40px;
+  font-family: "Roboto Regular";
+  font-size: 21px;
+}
+
+.image {
+  width: 45%;
+}
+
+.convent {
+  width: 80%;
+  padding-top: 60px;
+}
+
+.third-block {
+  height: 450px;
+  color: #f3eed9;
+  background-color: #824936;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.convent2 {
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+.text-third-block {
+  width: 50%;
+  margin-top: 70px;
+  padding-right: 100px;
+  padding-left: 40px;
+  font-family: "Roboto Regular";
+  font-size: 21px;
+}

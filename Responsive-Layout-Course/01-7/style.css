@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #23424a;
+  color: white;
+}
+
+.intro-content {
+  width: 50%;
+  max-width: 750px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10em;
+}
+
+.container-2 {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  color: #23424a;
+}
+
+.more-content {
+  width: 100%;
+  max-width: 750px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10em;
+
+}
