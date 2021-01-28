@@ -29,9 +29,9 @@ section {
   background-color: #f8f0fb;
 }
 
-img {
+/* img {
   border: 5px solid #8075ff;
-}
+} */
 
 h1,
 h2,
@@ -76,6 +76,7 @@ footer {
 }
 
 .introduction {
+  background-color: white;
 }
 
 #badge {
@@ -109,20 +110,39 @@ footer {
 }
 
 .image-container img:first-of-type {
-  vertical-align: bottom;
+  height: 300px;
+  border: 5px solid blue;
+}
+
+
+.image-container img:last-of-type {
+  height: 300px;
+  border: 5px solid green;
+}
+
+.bears p {
+  margin-bottom: 40px;
+}
+
+.bear-img {
+  width: 30%;
 }
 
 .tigers {
   background-color: #0b3c49;
-  color: #f0e100;
+  color: #BEEE62;
+}
+
+.tigers h2 {
+  color: #F4743B;
 }
 
 .giraffe {
-  background-color: #465775;
+  background-color: #483C46;
   color: #56e39f;
 }
 
-.giraffe h2 {
+.giraffe h2, h3 {
   color: #ef6f6c;
 }
 
