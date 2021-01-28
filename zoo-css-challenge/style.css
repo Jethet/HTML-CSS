@@ -88,7 +88,7 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-
+  top: 0;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -97,6 +97,7 @@ footer {
 
 #badge:hover {
   background-color: yellow;
+  transition: 1s;
 }
 
 #badge p {
@@ -114,7 +115,6 @@ footer {
   border: 5px solid blue;
 }
 
-
 .image-container img:last-of-type {
   height: 300px;
   border: 5px solid green;
@@ -130,19 +130,20 @@ footer {
 
 .tigers {
   background-color: #0b3c49;
-  color: #BEEE62;
+  color: #beee62;
 }
 
 .tigers h2 {
-  color: #F4743B;
+  color: #f4743b;
 }
 
 .giraffe {
-  background-color: #483C46;
+  background-color: #483c46;
   color: #56e39f;
 }
 
-.giraffe h2, h3 {
+.giraffe h2,
+h3 {
   color: #ef6f6c;
 }
 
@@ -233,11 +234,30 @@ footer {
 }
 
 .programs .card {
-  display: inline-flex;
-
+  text-align: center;
 }
 
-.card button {
+.program-button {
   width: 70px;
-  padding-right: 10px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: green;
 }
+ 
+.program-button2 {
+  width: 70px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: blue;
+}
+ 
+.program-button3 {
+  width: 70px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: red;
+}
+ 
